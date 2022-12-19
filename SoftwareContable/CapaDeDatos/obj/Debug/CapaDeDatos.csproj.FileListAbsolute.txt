@@ -1,0 +1,19 @@
+C:\Users\personal\Documents\Visual Studio 2013\Projects\lister mera\SoftwareContable\CapaDeDatos\bin\Debug\CapaDeDatos.dll
+C:\Users\personal\Documents\Visual Studio 2013\Projects\lister mera\SoftwareContable\CapaDeDatos\bin\Debug\CapaDeDatos.pdb
+C:\Users\personal\Documents\Visual Studio 2013\Projects\lister mera\SoftwareContable\CapaDeDatos\obj\Debug\CapaDeDatos.dll
+C:\Users\personal\Documents\Visual Studio 2013\Projects\lister mera\SoftwareContable\CapaDeDatos\obj\Debug\CapaDeDatos.pdb
+C:\Users\Flash\Desktop\SoftwareContable\CapaDeDatos\bin\Debug\CapaDeDatos.dll
+C:\Users\Flash\Desktop\SoftwareContable\CapaDeDatos\bin\Debug\CapaDeDatos.pdb
+C:\Users\Flash\Desktop\SoftwareContable\CapaDeDatos\obj\Debug\CapaDeDatos.csprojResolveAssemblyReference.cache
+C:\Users\Flash\Desktop\SoftwareContable\CapaDeDatos\obj\Debug\CapaDeDatos.dll
+C:\Users\Flash\Desktop\SoftwareContable\CapaDeDatos\obj\Debug\CapaDeDatos.pdb
+C:\Users\Flash\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaDeDatos\bin\Debug\CapaDeDatos.dll
+C:\Users\Flash\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaDeDatos\bin\Debug\CapaDeDatos.pdb
+C:\Users\Flash\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaDeDatos\obj\Debug\CapaDeDatos.csprojResolveAssemblyReference.cache
+C:\Users\Flash\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaDeDatos\obj\Debug\CapaDeDatos.dll
+C:\Users\Flash\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaDeDatos\obj\Debug\CapaDeDatos.pdb
+C:\Users\LISTER\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaDeDatos\bin\Debug\CapaDeDatos.dll
+C:\Users\LISTER\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaDeDatos\bin\Debug\CapaDeDatos.pdb
+C:\Users\LISTER\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaDeDatos\obj\Debug\CapaDeDatos.dll
+C:\Users\LISTER\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaDeDatos\obj\Debug\CapaDeDatos.pdb
+C:\Users\LISTER\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaDeDatos\obj\Debug\CapaDeDatos.csprojResolveAssemblyReference.cache

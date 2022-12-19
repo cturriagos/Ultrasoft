@@ -1,0 +1,21 @@
+C:\Users\Flash\Desktop\SoftwareContable\CapaNegocios\bin\Debug\CapaNegocios.dll
+C:\Users\Flash\Desktop\SoftwareContable\CapaNegocios\bin\Debug\CapaNegocios.pdb
+C:\Users\Flash\Desktop\SoftwareContable\CapaNegocios\bin\Debug\CapaDeDatos.dll
+C:\Users\Flash\Desktop\SoftwareContable\CapaNegocios\bin\Debug\CapaDeDatos.pdb
+C:\Users\Flash\Desktop\SoftwareContable\CapaNegocios\obj\Debug\CapaNegocios.csprojResolveAssemblyReference.cache
+C:\Users\Flash\Desktop\SoftwareContable\CapaNegocios\obj\Debug\CapaNegocios.dll
+C:\Users\Flash\Desktop\SoftwareContable\CapaNegocios\obj\Debug\CapaNegocios.pdb
+C:\Users\Flash\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaNegocios\bin\Debug\CapaNegocios.dll
+C:\Users\Flash\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaNegocios\bin\Debug\CapaNegocios.pdb
+C:\Users\Flash\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaNegocios\bin\Debug\CapaDeDatos.dll
+C:\Users\Flash\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaNegocios\bin\Debug\CapaDeDatos.pdb
+C:\Users\Flash\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaNegocios\obj\Debug\CapaNegocios.csprojResolveAssemblyReference.cache
+C:\Users\Flash\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaNegocios\obj\Debug\CapaNegocios.dll
+C:\Users\Flash\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaNegocios\obj\Debug\CapaNegocios.pdb
+C:\Users\LISTER\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaNegocios\bin\Debug\CapaNegocios.dll
+C:\Users\LISTER\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaNegocios\bin\Debug\CapaNegocios.pdb
+C:\Users\LISTER\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaNegocios\bin\Debug\CapaDeDatos.dll
+C:\Users\LISTER\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaNegocios\bin\Debug\CapaDeDatos.pdb
+C:\Users\LISTER\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaNegocios\obj\Debug\CapaNegocios.dll
+C:\Users\LISTER\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaNegocios\obj\Debug\CapaNegocios.pdb
+C:\Users\LISTER\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaNegocios\obj\Debug\CapaNegocios.csprojResolveAssemblyReference.cache

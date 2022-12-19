@@ -1,0 +1,748 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{49521E21-6DA3-4556-99F3-382081DC3122}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CapaPresentacion</RootNamespace>
+    <AssemblyName>CapaPresentacion</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DocumentFormat.OpenXml, Version=2.5.5631.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ActualizarComercial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ActualizarComercial.Designer.cs">
+      <DependentUpon>ActualizarComercial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ActualizarDueño.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ActualizarDueño.Designer.cs">
+      <DependentUpon>ActualizarDueño.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AgregarComercial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AgregarComercial.Designer.cs">
+      <DependentUpon>AgregarComercial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AgregarDueño.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AgregarDueño.Designer.cs">
+      <DependentUpon>AgregarDueño.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bodega-Registro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bodega-Registro.designer.cs">
+      <DependentUpon>Bodega-Registro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente-Actualizar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cliente-Actualizar.designer.cs">
+      <DependentUpon>Cliente-Actualizar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente-Consulta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cliente-Consulta.designer.cs">
+      <DependentUpon>Cliente-Consulta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente-Registro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cliente-Registro.designer.cs">
+      <DependentUpon>Cliente-Registro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="clientes.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>clientes.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="compras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="compras.designer.cs">
+      <DependentUpon>compras.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Configuracion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Configuracion.designer.cs">
+      <DependentUpon>Configuracion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="consulta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="consulta.Designer.cs">
+      <DependentUpon>consulta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DatosDelComercial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DatosDelComercial.Designer.cs">
+      <DependentUpon>DatosDelComercial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="dsPrincipal.cs">
+      <DependentUpon>dsPrincipal.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsPrincipal.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsPrincipal.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="eliminar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="eliminar.Designer.cs">
+      <DependentUpon>eliminar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormularioRecuperarContraseña.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormularioRecuperarContraseña.Designer.cs">
+      <DependentUpon>FormularioRecuperarContraseña.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Imagen.cs" />
+    <Compile Include="Logim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Logim.designer.cs">
+      <DependentUpon>Logim.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuCliente.Designer.cs">
+      <DependentUpon>MenuCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuConfiguracion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuConfiguracion.Designer.cs">
+      <DependentUpon>MenuConfiguracion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="menuInicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menuInicio.Designer.cs">
+      <DependentUpon>menuInicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="menuPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menuPrincipal.designer.cs">
+      <DependentUpon>menuPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuProveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuProveedor.Designer.cs">
+      <DependentUpon>MenuProveedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuTrabajador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuTrabajador.Designer.cs">
+      <DependentUpon>MenuTrabajador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="nivel de usuario 2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="nivel de usuario 2.Designer.cs">
+      <DependentUpon>nivel de usuario 2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="nivel de usuario 3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="nivel de usuario 3.Designer.cs">
+      <DependentUpon>nivel de usuario 3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Proveedor-Actualizar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Proveedor-Actualizar.designer.cs">
+      <DependentUpon>Proveedor-Actualizar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Proveedor-Consulta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Proveedor-Consulta.designer.cs">
+      <DependentUpon>Proveedor-Consulta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Proveedor-Registro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Proveedor-Registro.designer.cs">
+      <DependentUpon>Proveedor-Registro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Registro-Eliminar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro-Eliminar.designer.cs">
+      <DependentUpon>Registro-Eliminar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Registro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro.Designer.cs">
+      <DependentUpon>Registro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes.Designer.cs">
+      <DependentUpon>Reportes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\ComprobanteVenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\ComprobanteVenta.Designer.cs">
+      <DependentUpon>ComprobanteVenta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Reporte Cliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\Reporte Cliente.Designer.cs">
+      <DependentUpon>Reporte Cliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Reporte Proveedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\Reporte Proveedores.Designer.cs">
+      <DependentUpon>Reporte Proveedores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Reporte Trabajador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\Reporte Trabajador.Designer.cs">
+      <DependentUpon>Reporte Trabajador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Reporte Ventas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\Reporte Ventas.Designer.cs">
+      <DependentUpon>Reporte Ventas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\ReporteCompra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\ReporteCompra.Designer.cs">
+      <DependentUpon>ReporteCompra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\REPORTEFACTURACOMPRA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\REPORTEFACTURACOMPRA.Designer.cs">
+      <DependentUpon>REPORTEFACTURACOMPRA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Trabajador-Actualizar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Trabajador-Actualizar.designer.cs">
+      <DependentUpon>Trabajador-Actualizar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Trabajador-Consulta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Trabajador-Consulta.designer.cs">
+      <DependentUpon>Trabajador-Consulta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Trabajador-Registro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Trabajador-Registro.designer.cs">
+      <DependentUpon>Trabajador-Registro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ValidarLetraOnumero.cs" />
+    <Compile Include="Venta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Venta.designer.cs">
+      <DependentUpon>Venta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="venta1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>venta.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ActualizarComercial.resx">
+      <DependentUpon>ActualizarComercial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ActualizarDueño.resx">
+      <DependentUpon>ActualizarDueño.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AgregarComercial.resx">
+      <DependentUpon>AgregarComercial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AgregarDueño.resx">
+      <DependentUpon>AgregarDueño.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bodega-Registro.resx">
+      <DependentUpon>Bodega-Registro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cliente-Actualizar.resx">
+      <DependentUpon>Cliente-Actualizar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cliente-Consulta.resx">
+      <DependentUpon>Cliente-Consulta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cliente-Registro.resx">
+      <DependentUpon>Cliente-Registro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="compras.resx">
+      <DependentUpon>compras.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configuracion.resx">
+      <DependentUpon>Configuracion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="consulta.resx">
+      <DependentUpon>consulta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DatosDelComercial.resx">
+      <DependentUpon>DatosDelComercial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="eliminar.resx">
+      <DependentUpon>eliminar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormularioRecuperarContraseña.resx">
+      <DependentUpon>FormularioRecuperarContraseña.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Logim.resx">
+      <DependentUpon>Logim.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuCliente.resx">
+      <DependentUpon>MenuCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuConfiguracion.resx">
+      <DependentUpon>MenuConfiguracion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menuInicio.resx">
+      <DependentUpon>menuInicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menuPrincipal.resx">
+      <DependentUpon>menuPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuProveedor.resx">
+      <DependentUpon>MenuProveedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuTrabajador.resx">
+      <DependentUpon>MenuTrabajador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="nivel de usuario 2.resx">
+      <DependentUpon>nivel de usuario 2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="nivel de usuario 3.resx">
+      <DependentUpon>nivel de usuario 3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Proveedor-Actualizar.resx">
+      <DependentUpon>Proveedor-Actualizar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Proveedor-Consulta.resx">
+      <DependentUpon>Proveedor-Consulta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Proveedor-Registro.resx">
+      <DependentUpon>Proveedor-Registro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro-Eliminar.resx">
+      <DependentUpon>Registro-Eliminar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro.resx">
+      <DependentUpon>Registro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes.resx">
+      <DependentUpon>Reportes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\ComprobanteVenta.resx">
+      <DependentUpon>ComprobanteVenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Report1.rdlc" />
+    <EmbeddedResource Include="Reportes\Report2.rdlc" />
+    <EmbeddedResource Include="Reportes\Report3.rdlc" />
+    <EmbeddedResource Include="Reportes\Report4.rdlc" />
+    <EmbeddedResource Include="Reportes\Report5.rdlc" />
+    <EmbeddedResource Include="Reportes\Reporte Cliente.resx">
+      <DependentUpon>Reporte Cliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Reporte Proveedores.resx">
+      <DependentUpon>Reporte Proveedores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Reporte Trabajador.resx">
+      <DependentUpon>Reporte Trabajador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Reporte Ventas.resx">
+      <DependentUpon>Reporte Ventas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\ReporteCompra.resx">
+      <DependentUpon>ReporteCompra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\REPORTEFACTURACOMPRA.resx">
+      <DependentUpon>REPORTEFACTURACOMPRA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\REPORTEFACTURAVENTA.rdlc" />
+    <EmbeddedResource Include="Reportes\rptComprobanteFactura.rdlc" />
+    <EmbeddedResource Include="Trabajador-Actualizar.resx">
+      <DependentUpon>Trabajador-Actualizar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Trabajador-Consulta.resx">
+      <DependentUpon>Trabajador-Consulta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Trabajador-Registro.resx">
+      <DependentUpon>Trabajador-Registro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Venta.resx">
+      <DependentUpon>Venta.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="clientes.xsc">
+      <DependentUpon>clientes.xsd</DependentUpon>
+    </None>
+    <None Include="clientes.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>clientes.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="clientes.xss">
+      <DependentUpon>clientes.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet1.xsc">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet1.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet1.xss">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet2.xsc">
+      <DependentUpon>DataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet2.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet2.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet2.xss">
+      <DependentUpon>DataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet3.xsc">
+      <DependentUpon>DataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet3.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet3.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet3.xss">
+      <DependentUpon>DataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet4.xsc">
+      <DependentUpon>DataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet4.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet4.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet4.xss">
+      <DependentUpon>DataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="dsPrincipal.xsc">
+      <DependentUpon>dsPrincipal.xsd</DependentUpon>
+    </None>
+    <None Include="dsPrincipal.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsPrincipal.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="dsPrincipal.xss">
+      <DependentUpon>dsPrincipal.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="venta.xsc">
+      <DependentUpon>venta.xsd</DependentUpon>
+    </None>
+    <None Include="venta.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>venta1.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="venta.xss">
+      <DependentUpon>venta.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Businessman_35px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lock_35px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Delete_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Minimize Window_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Close Window_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Enter_35px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cerrar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cerrar1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimazar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clientes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Real Estate_35px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Checkmark_35px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Add New_35px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nombre.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Name_35px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Contact_35px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cheap 2_35px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Calculator_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Calculator_50px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Coins_35px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Trash_35px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Trash_35px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Add New_35px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Trash_35px2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Contacts_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Home_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Business Building_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Refresh_100px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Refresh_100px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Refresh_100px2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Home_35px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\descarga.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CapaNegocios\CapaNegocios.csproj">
+      <Project>{2983cc67-22af-40a2-ae74-89ba19afcdfe}</Project>
+      <Name>CapaNegocios</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QR Code_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bill_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Google Web Search_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bill_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Bill_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Bill_321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Bill_322.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons9_Bill_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Registry Editor_64px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Add User Male_52px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Available Updates_64px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Search Property_52px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Trash_52px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Refresh_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Buying_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Buying_321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Buying_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Buying_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Buying_322.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Truck_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Buying_323.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mio_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Cancel_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hongos-plantacion-cacao.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

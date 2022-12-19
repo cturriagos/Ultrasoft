@@ -1,0 +1,168 @@
+C:\Users\Flash\Desktop\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.csprojResolveAssemblyReference.cache
+C:\Users\Flash\Desktop\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.Bodega_Registro.resources
+C:\Users\Flash\Desktop\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.Cliente_Actualizar.resources
+C:\Users\Flash\Desktop\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.Cliente_Consulta.resources
+C:\Users\Flash\Desktop\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.Cliente_Registro.resources
+C:\Users\Flash\Desktop\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.Compras.resources
+C:\Users\Flash\Desktop\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.Configuracion.resources
+C:\Users\Flash\Desktop\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.consulta.resources
+C:\Users\Flash\Desktop\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.eliminar.resources
+C:\Users\Flash\Desktop\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.FormularioRecuperarContraseña.resources
+C:\Users\Flash\Desktop\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.Logim.resources
+C:\Users\Flash\Desktop\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.MenuCliente.resources
+C:\Users\Flash\Desktop\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.Inicio.resources
+C:\Users\Flash\Desktop\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.MenuProveedor.resources
+C:\Users\Flash\Desktop\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.MenuTrabajador.resources
+C:\Users\Flash\Desktop\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\Users\Flash\Desktop\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.Proveedor_Actualizar.resources
+C:\Users\Flash\Desktop\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.Proveedor_Consulta.resources
+C:\Users\Flash\Desktop\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.Proveedor_Registro.resources
+C:\Users\Flash\Desktop\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.Registro_Eliminar.resources
+C:\Users\Flash\Desktop\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.Registro.resources
+C:\Users\Flash\Desktop\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.Trabajador_Actualizar.resources
+C:\Users\Flash\Desktop\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.Trabajador_Consulta.resources
+C:\Users\Flash\Desktop\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.Trabajador_Registro.resources
+C:\Users\Flash\Desktop\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.Venta.resources
+C:\Users\Flash\Desktop\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.Cache
+C:\Users\Flash\Desktop\SoftwareContable\CapaPresentacion\bin\Debug\CapaPresentacion.exe.config
+C:\Users\Flash\Desktop\SoftwareContable\CapaPresentacion\bin\Debug\CapaPresentacion.exe
+C:\Users\Flash\Desktop\SoftwareContable\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+C:\Users\Flash\Desktop\SoftwareContable\CapaPresentacion\bin\Debug\CapaNegocios.dll
+C:\Users\Flash\Desktop\SoftwareContable\CapaPresentacion\bin\Debug\CapaDeDatos.dll
+C:\Users\Flash\Desktop\SoftwareContable\CapaPresentacion\bin\Debug\CapaNegocios.pdb
+C:\Users\Flash\Desktop\SoftwareContable\CapaPresentacion\bin\Debug\CapaDeDatos.pdb
+C:\Users\Flash\Desktop\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.exe
+C:\Users\Flash\Desktop\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+C:\Users\Flash\Desktop\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.MenuConfiguracion.resources
+C:\Users\Flash\Desktop\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.menuInicio.resources
+C:\Users\Flash\Desktop\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.DatosDelComercial.resources
+C:\Users\Flash\Desktop\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.AgregarDueño.resources
+C:\Users\Flash\Desktop\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.ActualizarDueño.resources
+C:\Users\Flash\Desktop\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.AgregarComercial.resources
+C:\Users\Flash\Desktop\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.ActualizarComercial.resources
+C:\Users\Flash\Desktop\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.Reportes.resources
+C:\Users\Flash\Desktop\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.REPORTEFACTURACOMPRA.resources
+C:\Users\Flash\Desktop\SoftwareContable\CapaPresentacion\obj\Debug\RdlCompile.cache
+C:\Users\Flash\Desktop\SoftwareContable\CapaPresentacion\obj\Debug\RdlCompile.compiled
+C:\Users\Flash\Desktop\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.ComprobanteVenta.resources
+C:\Users\Flash\Desktop\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.Reporte_Cliente.resources
+C:\Users\Flash\Desktop\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.Reporte_Trabajador.resources
+C:\Users\Flash\Desktop\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.Reporte_Proveedores.resources
+C:\Users\Flash\Desktop\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.ReporteCompra.resources
+C:\Users\Flash\Desktop\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.Reporte_Ventas.resources
+C:\Users\Flash\Desktop\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.nivel_de_usuario_2.resources
+C:\Users\Flash\Desktop\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.nivel_de_usuario_3.resources
+C:\Users\Flash\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\bin\Debug\CapaPresentacion.exe.config
+C:\Users\Flash\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.exe
+C:\Users\Flash\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+C:\Users\Flash\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\bin\Debug\CapaPresentacion.exe
+C:\Users\Flash\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+C:\Users\Flash\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\bin\Debug\CapaNegocios.dll
+C:\Users\Flash\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\bin\Debug\CapaDeDatos.dll
+C:\Users\Flash\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\bin\Debug\CapaNegocios.pdb
+C:\Users\Flash\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\bin\Debug\CapaDeDatos.pdb
+C:\Users\Flash\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.csprojResolveAssemblyReference.cache
+C:\Users\Flash\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.ActualizarComercial.resources
+C:\Users\Flash\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.ActualizarDueño.resources
+C:\Users\Flash\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.AgregarComercial.resources
+C:\Users\Flash\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.AgregarDueño.resources
+C:\Users\Flash\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.Bodega_Registro.resources
+C:\Users\Flash\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.Cliente_Actualizar.resources
+C:\Users\Flash\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.Cliente_Consulta.resources
+C:\Users\Flash\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.Cliente_Registro.resources
+C:\Users\Flash\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.Compras.resources
+C:\Users\Flash\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.Configuracion.resources
+C:\Users\Flash\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.consulta.resources
+C:\Users\Flash\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.DatosDelComercial.resources
+C:\Users\Flash\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.eliminar.resources
+C:\Users\Flash\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.FormularioRecuperarContraseña.resources
+C:\Users\Flash\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.Logim.resources
+C:\Users\Flash\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.MenuCliente.resources
+C:\Users\Flash\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.MenuConfiguracion.resources
+C:\Users\Flash\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.menuInicio.resources
+C:\Users\Flash\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.Inicio.resources
+C:\Users\Flash\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.MenuProveedor.resources
+C:\Users\Flash\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.MenuTrabajador.resources
+C:\Users\Flash\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.nivel_de_usuario_2.resources
+C:\Users\Flash\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.nivel_de_usuario_3.resources
+C:\Users\Flash\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\Users\Flash\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.Proveedor_Actualizar.resources
+C:\Users\Flash\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.Proveedor_Consulta.resources
+C:\Users\Flash\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.Proveedor_Registro.resources
+C:\Users\Flash\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.Registro_Eliminar.resources
+C:\Users\Flash\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.Registro.resources
+C:\Users\Flash\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.Reportes.resources
+C:\Users\Flash\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.ComprobanteVenta.resources
+C:\Users\Flash\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.Reporte_Cliente.resources
+C:\Users\Flash\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.Reporte_Proveedores.resources
+C:\Users\Flash\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.Reporte_Trabajador.resources
+C:\Users\Flash\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.Reporte_Ventas.resources
+C:\Users\Flash\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.ReporteCompra.resources
+C:\Users\Flash\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.REPORTEFACTURACOMPRA.resources
+C:\Users\Flash\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.Trabajador_Actualizar.resources
+C:\Users\Flash\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.Trabajador_Consulta.resources
+C:\Users\Flash\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.Trabajador_Registro.resources
+C:\Users\Flash\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.Venta.resources
+C:\Users\Flash\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.Cache
+C:\Users\Flash\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\obj\Debug\RdlCompile.cache
+C:\Users\Flash\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\obj\Debug\RdlCompile.compiled
+C:\Users\LISTER\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.ActualizarComercial.resources
+C:\Users\LISTER\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.ActualizarDueño.resources
+C:\Users\LISTER\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.AgregarComercial.resources
+C:\Users\LISTER\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.AgregarDueño.resources
+C:\Users\LISTER\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.Bodega_Registro.resources
+C:\Users\LISTER\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.Cliente_Actualizar.resources
+C:\Users\LISTER\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.Cliente_Consulta.resources
+C:\Users\LISTER\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.Cliente_Registro.resources
+C:\Users\LISTER\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.Compras.resources
+C:\Users\LISTER\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.Configuracion.resources
+C:\Users\LISTER\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.consulta.resources
+C:\Users\LISTER\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.DatosDelComercial.resources
+C:\Users\LISTER\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.eliminar.resources
+C:\Users\LISTER\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.FormularioRecuperarContraseña.resources
+C:\Users\LISTER\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.Logim.resources
+C:\Users\LISTER\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.MenuCliente.resources
+C:\Users\LISTER\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.MenuConfiguracion.resources
+C:\Users\LISTER\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.menuInicio.resources
+C:\Users\LISTER\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.Inicio.resources
+C:\Users\LISTER\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.MenuProveedor.resources
+C:\Users\LISTER\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.MenuTrabajador.resources
+C:\Users\LISTER\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.nivel_de_usuario_2.resources
+C:\Users\LISTER\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.nivel_de_usuario_3.resources
+C:\Users\LISTER\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\Users\LISTER\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.Proveedor_Actualizar.resources
+C:\Users\LISTER\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.Proveedor_Consulta.resources
+C:\Users\LISTER\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.Proveedor_Registro.resources
+C:\Users\LISTER\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.Registro_Eliminar.resources
+C:\Users\LISTER\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.Registro.resources
+C:\Users\LISTER\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.Reportes.resources
+C:\Users\LISTER\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.ComprobanteVenta.resources
+C:\Users\LISTER\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.Reporte_Cliente.resources
+C:\Users\LISTER\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.Reporte_Proveedores.resources
+C:\Users\LISTER\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.Reporte_Trabajador.resources
+C:\Users\LISTER\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.Reporte_Ventas.resources
+C:\Users\LISTER\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.ReporteCompra.resources
+C:\Users\LISTER\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.REPORTEFACTURACOMPRA.resources
+C:\Users\LISTER\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.Trabajador_Actualizar.resources
+C:\Users\LISTER\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.Trabajador_Consulta.resources
+C:\Users\LISTER\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.Trabajador_Registro.resources
+C:\Users\LISTER\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.Venta.resources
+C:\Users\LISTER\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache
+C:\Users\LISTER\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.exe
+C:\Users\LISTER\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+C:\Users\LISTER\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\bin\Debug\CapaPresentacion.exe.config
+C:\Users\LISTER\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\bin\Debug\CapaPresentacion.exe
+C:\Users\LISTER\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+C:\Users\LISTER\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\bin\Debug\CapaNegocios.dll
+C:\Users\LISTER\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\bin\Debug\CapaDeDatos.dll
+C:\Users\LISTER\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\bin\Debug\CapaNegocios.pdb
+C:\Users\LISTER\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\bin\Debug\CapaDeDatos.pdb
+C:\Users\LISTER\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\LISTER\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
+C:\Users\LISTER\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\LISTER\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\LISTER\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\bin\Debug\Microsoft.VisualBasic.PowerPacks.xml
+C:\Users\LISTER\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+C:\Users\LISTER\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.csprojAssemblyReference.cache
+C:\Users\LISTER\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
+C:\Users\LISTER\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CopyComplete
