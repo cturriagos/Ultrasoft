@@ -183,6 +183,12 @@
     <Compile Include="FormularioRecuperarContraseña.Designer.cs">
       <DependentUpon>FormularioRecuperarContraseña.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmCliente_Proveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCliente_Proveedor.Designer.cs">
+      <DependentUpon>frmCliente_Proveedor.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmVentas.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -396,6 +402,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormularioRecuperarContraseña.resx">
       <DependentUpon>FormularioRecuperarContraseña.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCliente_Proveedor.resx">
+      <DependentUpon>frmCliente_Proveedor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmVentas.resx">
       <DependentUpon>frmVentas.cs</DependentUpon>

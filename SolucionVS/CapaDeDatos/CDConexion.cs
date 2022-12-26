@@ -26,7 +26,7 @@ namespace CapaDeDatos
         {
             servidor = ".";//hace referencia a mi equipo
             Usuario = "sa";
-            clave = "123456";
+            clave = "094162042";
             baseDeDatos = "Ultrasoft";
         }
         public CDConexion(string server, string user, string password, string Bd)
