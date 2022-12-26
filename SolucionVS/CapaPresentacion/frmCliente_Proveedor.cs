@@ -31,5 +31,10 @@ namespace CapaPresentacion
         {
 
         }
+
+        private void frmCliente_Proveedor_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

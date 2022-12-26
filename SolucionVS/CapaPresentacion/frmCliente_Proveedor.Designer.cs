@@ -301,6 +301,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "frmCliente_Proveedor";
             this.Text = "frmCliente_Proveedor";
+            this.Load += new System.EventHandler(this.frmCliente_Proveedor_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.groupBox1.ResumeLayout(false);
