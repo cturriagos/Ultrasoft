@@ -113,7 +113,8 @@ namespace CapaPresentacion
         private void btnVenta_Click(object sender, EventArgs e)
         {
             panel4.Visible = false;
-            AbrirFormulario(new Venta());
+            //AbrirFormulario(new Venta());
+            AbrirFormulario(new frmVentas());
         }
 
         private void btnCliente_Click(object sender, EventArgs e)

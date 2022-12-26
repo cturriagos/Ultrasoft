@@ -17,3 +17,19 @@ C:\Users\LISTER\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaDeDatos\bin\Debug
 C:\Users\LISTER\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaDeDatos\obj\Debug\CapaDeDatos.dll
 C:\Users\LISTER\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaDeDatos\obj\Debug\CapaDeDatos.pdb
 C:\Users\LISTER\Desktop\PROGRAMA COMPLETO\SoftwareContable\CapaDeDatos\obj\Debug\CapaDeDatos.csprojResolveAssemblyReference.cache
+C:\Users\Alexander Vega\Documents\UTEQ\OCTAVO SEMESTRE\GESTÓN DE LA CONFIGURACIÓN DE SOFTWARE\Ultrasoft\SolucionVS\CapaDeDatos\bin\Debug\SqlServerTypes\x64\msvcr100.dll
+C:\Users\Alexander Vega\Documents\UTEQ\OCTAVO SEMESTRE\GESTÓN DE LA CONFIGURACIÓN DE SOFTWARE\Ultrasoft\SolucionVS\CapaDeDatos\bin\Debug\SqlServerTypes\x64\SqlServerSpatial110.dll
+C:\Users\Alexander Vega\Documents\UTEQ\OCTAVO SEMESTRE\GESTÓN DE LA CONFIGURACIÓN DE SOFTWARE\Ultrasoft\SolucionVS\CapaDeDatos\bin\Debug\SqlServerTypes\x86\msvcr100.dll
+C:\Users\Alexander Vega\Documents\UTEQ\OCTAVO SEMESTRE\GESTÓN DE LA CONFIGURACIÓN DE SOFTWARE\Ultrasoft\SolucionVS\CapaDeDatos\bin\Debug\SqlServerTypes\x86\SqlServerSpatial110.dll
+C:\Users\Alexander Vega\Documents\UTEQ\OCTAVO SEMESTRE\GESTÓN DE LA CONFIGURACIÓN DE SOFTWARE\Ultrasoft\SolucionVS\CapaDeDatos\bin\Debug\CapaDeDatos.dll
+C:\Users\Alexander Vega\Documents\UTEQ\OCTAVO SEMESTRE\GESTÓN DE LA CONFIGURACIÓN DE SOFTWARE\Ultrasoft\SolucionVS\CapaDeDatos\bin\Debug\CapaDeDatos.pdb
+C:\Users\Alexander Vega\Documents\UTEQ\OCTAVO SEMESTRE\GESTÓN DE LA CONFIGURACIÓN DE SOFTWARE\Ultrasoft\SolucionVS\CapaDeDatos\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Alexander Vega\Documents\UTEQ\OCTAVO SEMESTRE\GESTÓN DE LA CONFIGURACIÓN DE SOFTWARE\Ultrasoft\SolucionVS\CapaDeDatos\bin\Debug\Microsoft.ReportViewer.DataVisualization.DLL
+C:\Users\Alexander Vega\Documents\UTEQ\OCTAVO SEMESTRE\GESTÓN DE LA CONFIGURACIÓN DE SOFTWARE\Ultrasoft\SolucionVS\CapaDeDatos\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+C:\Users\Alexander Vega\Documents\UTEQ\OCTAVO SEMESTRE\GESTÓN DE LA CONFIGURACIÓN DE SOFTWARE\Ultrasoft\SolucionVS\CapaDeDatos\bin\Debug\Microsoft.ReportViewer.WinForms.DLL
+C:\Users\Alexander Vega\Documents\UTEQ\OCTAVO SEMESTRE\GESTÓN DE LA CONFIGURACIÓN DE SOFTWARE\Ultrasoft\SolucionVS\CapaDeDatos\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Alexander Vega\Documents\UTEQ\OCTAVO SEMESTRE\GESTÓN DE LA CONFIGURACIÓN DE SOFTWARE\Ultrasoft\SolucionVS\CapaDeDatos\obj\Debug\CapaDeDatos.csproj.AssemblyReference.cache
+C:\Users\Alexander Vega\Documents\UTEQ\OCTAVO SEMESTRE\GESTÓN DE LA CONFIGURACIÓN DE SOFTWARE\Ultrasoft\SolucionVS\CapaDeDatos\obj\Debug\CapaDeDatos.csproj.CoreCompileInputs.cache
+C:\Users\Alexander Vega\Documents\UTEQ\OCTAVO SEMESTRE\GESTÓN DE LA CONFIGURACIÓN DE SOFTWARE\Ultrasoft\SolucionVS\CapaDeDatos\obj\Debug\CapaDeDatos.csproj.CopyComplete
+C:\Users\Alexander Vega\Documents\UTEQ\OCTAVO SEMESTRE\GESTÓN DE LA CONFIGURACIÓN DE SOFTWARE\Ultrasoft\SolucionVS\CapaDeDatos\obj\Debug\CapaDeDatos.dll
+C:\Users\Alexander Vega\Documents\UTEQ\OCTAVO SEMESTRE\GESTÓN DE LA CONFIGURACIÓN DE SOFTWARE\Ultrasoft\SolucionVS\CapaDeDatos\obj\Debug\CapaDeDatos.pdb
