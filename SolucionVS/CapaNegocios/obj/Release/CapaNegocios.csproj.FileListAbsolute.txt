@@ -52,3 +52,21 @@ C:\Users\Alexander Vega\Documents\UTEQ\OCTAVO SEMESTRE\GESTÓN DE LA CONFIGURACI
 C:\Users\Alexander Vega\Documents\UTEQ\OCTAVO SEMESTRE\GESTÓN DE LA CONFIGURACIÓN DE SOFTWARE\Ultrasoft\SolucionVS\CapaNegocios\bin\Release\Microsoft.ReportViewer.ProcessingObjectModel.DLL
 C:\Users\Alexander Vega\Documents\UTEQ\OCTAVO SEMESTRE\GESTÓN DE LA CONFIGURACIÓN DE SOFTWARE\Ultrasoft\SolucionVS\CapaNegocios\bin\Release\Microsoft.ReportViewer.WinForms.DLL
 C:\Users\Alexander Vega\Documents\UTEQ\OCTAVO SEMESTRE\GESTÓN DE LA CONFIGURACIÓN DE SOFTWARE\Ultrasoft\SolucionVS\CapaNegocios\bin\Release\Microsoft.SqlServer.Types.dll
+C:\Users\liste\Documents\GitHub\Ultrasoft\SolucionVS\CapaNegocios\bin\Release\SqlServerTypes\x64\msvcr100.dll
+C:\Users\liste\Documents\GitHub\Ultrasoft\SolucionVS\CapaNegocios\bin\Release\SqlServerTypes\x64\SqlServerSpatial110.dll
+C:\Users\liste\Documents\GitHub\Ultrasoft\SolucionVS\CapaNegocios\bin\Release\SqlServerTypes\x86\msvcr100.dll
+C:\Users\liste\Documents\GitHub\Ultrasoft\SolucionVS\CapaNegocios\bin\Release\SqlServerTypes\x86\SqlServerSpatial110.dll
+C:\Users\liste\Documents\GitHub\Ultrasoft\SolucionVS\CapaNegocios\bin\Release\CapaNegocios.dll
+C:\Users\liste\Documents\GitHub\Ultrasoft\SolucionVS\CapaNegocios\bin\Release\CapaNegocios.pdb
+C:\Users\liste\Documents\GitHub\Ultrasoft\SolucionVS\CapaNegocios\bin\Release\CapaDeDatos.dll
+C:\Users\liste\Documents\GitHub\Ultrasoft\SolucionVS\CapaNegocios\bin\Release\Microsoft.SqlServer.Types.dll
+C:\Users\liste\Documents\GitHub\Ultrasoft\SolucionVS\CapaNegocios\bin\Release\CapaDeDatos.pdb
+C:\Users\liste\Documents\GitHub\Ultrasoft\SolucionVS\CapaNegocios\obj\Release\CapaNegocios.dll
+C:\Users\liste\Documents\GitHub\Ultrasoft\SolucionVS\CapaNegocios\obj\Release\CapaNegocios.pdb
+C:\Users\liste\Documents\GitHub\Ultrasoft\SolucionVS\CapaNegocios\bin\Release\Microsoft.ReportViewer.Common.dll
+C:\Users\liste\Documents\GitHub\Ultrasoft\SolucionVS\CapaNegocios\bin\Release\Microsoft.ReportViewer.DataVisualization.DLL
+C:\Users\liste\Documents\GitHub\Ultrasoft\SolucionVS\CapaNegocios\bin\Release\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+C:\Users\liste\Documents\GitHub\Ultrasoft\SolucionVS\CapaNegocios\bin\Release\Microsoft.ReportViewer.WinForms.DLL
+C:\Users\liste\Documents\GitHub\Ultrasoft\SolucionVS\CapaNegocios\obj\Release\CapaNegocios.csprojAssemblyReference.cache
+C:\Users\liste\Documents\GitHub\Ultrasoft\SolucionVS\CapaNegocios\obj\Release\CapaNegocios.csproj.CoreCompileInputs.cache
+C:\Users\liste\Documents\GitHub\Ultrasoft\SolucionVS\CapaNegocios\obj\Release\CapaNegocios.csproj.CopyComplete
