@@ -40,10 +40,8 @@
             this.label3 = new System.Windows.Forms.Label();
             this.cmbTipo_identificacion = new System.Windows.Forms.ComboBox();
             this.txtNombre = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.txtApellidos = new System.Windows.Forms.TextBox();
             this.btnEliminar = new System.Windows.Forms.Button();
             this.btnModificar = new System.Windows.Forms.Button();
             this.btnRegistrar = new System.Windows.Forms.Button();
@@ -120,7 +118,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI Emoji", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(631, 40);
+            this.label4.Location = new System.Drawing.Point(517, 43);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(84, 22);
@@ -129,17 +127,17 @@
             // 
             // txtTelefono
             // 
-            this.txtTelefono.Location = new System.Drawing.Point(635, 66);
+            this.txtTelefono.Location = new System.Drawing.Point(521, 69);
             this.txtTelefono.Margin = new System.Windows.Forms.Padding(4);
             this.txtTelefono.Name = "txtTelefono";
-            this.txtTelefono.Size = new System.Drawing.Size(209, 34);
+            this.txtTelefono.Size = new System.Drawing.Size(266, 34);
             this.txtTelefono.TabIndex = 6;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI Emoji", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(427, 40);
+            this.label3.Location = new System.Drawing.Point(311, 42);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(169, 22);
@@ -154,7 +152,7 @@
             "Cédula",
             "Ruc",
             "Pasaporte"});
-            this.cmbTipo_identificacion.Location = new System.Drawing.Point(431, 66);
+            this.cmbTipo_identificacion.Location = new System.Drawing.Point(315, 68);
             this.cmbTipo_identificacion.Margin = new System.Windows.Forms.Padding(4);
             this.cmbTipo_identificacion.Name = "cmbTipo_identificacion";
             this.cmbTipo_identificacion.Size = new System.Drawing.Size(188, 35);
@@ -166,19 +164,8 @@
             this.txtNombre.Location = new System.Drawing.Point(12, 67);
             this.txtNombre.Margin = new System.Windows.Forms.Padding(4);
             this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(195, 34);
+            this.txtNombre.Size = new System.Drawing.Size(286, 34);
             this.txtNombre.TabIndex = 3;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Segoe UI Emoji", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(218, 41);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(88, 22);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "Apellidos";
             // 
             // label1
             // 
@@ -193,7 +180,6 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.txtApellidos);
             this.groupBox1.Controls.Add(this.btnEliminar);
             this.groupBox1.Controls.Add(this.btnModificar);
             this.groupBox1.Controls.Add(this.cmbTipo_identificacion);
@@ -206,7 +192,6 @@
             this.groupBox1.Controls.Add(this.txtTelefono);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.txtNombre);
-            this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(13, 115);
@@ -217,14 +202,6 @@
             this.groupBox1.TabIndex = 4;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Información";
-            // 
-            // txtApellidos
-            // 
-            this.txtApellidos.Location = new System.Drawing.Point(222, 67);
-            this.txtApellidos.Margin = new System.Windows.Forms.Padding(4);
-            this.txtApellidos.Name = "txtApellidos";
-            this.txtApellidos.Size = new System.Drawing.Size(195, 34);
-            this.txtApellidos.TabIndex = 20;
             // 
             // btnEliminar
             // 
@@ -260,6 +237,7 @@
             this.btnRegistrar.Text = "REGISTRAR";
             this.btnRegistrar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnRegistrar.UseVisualStyleBackColor = true;
+            this.btnRegistrar.Click += new System.EventHandler(this.btnRegistrar_Click);
             // 
             // lblEmpleados
             // 
@@ -316,14 +294,12 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.ComboBox cmbTipo_identificacion;
         private System.Windows.Forms.TextBox txtNombre;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Button btnRegistrar;
         private System.Windows.Forms.Button btnEliminar;
         private System.Windows.Forms.Button btnModificar;
         private System.Windows.Forms.Label lblEmpleados;
-        private System.Windows.Forms.TextBox txtApellidos;
         private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

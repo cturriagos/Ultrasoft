@@ -49,7 +49,7 @@ namespace CapaDeDatos
 
         //  Métodos y Funciones
 
-        public string Insertar(DEmpleado Empleado)
+        public string Registrar(DEmpleado Empleado)
         {
             string Rpta = "";
             SqlConnection SqlCon = new SqlConnection();
@@ -82,10 +82,23 @@ namespace CapaDeDatos
                 ParDireccion.Size = 100;
                 ParDireccion.Value = Empleado.Direccion;
                 SqlCmd.Parameters.Add(ParDireccion);
-                //Agregamos el parámetro al comando
 
-                //5. Ejecutamos el commando
-                Rpta = SqlCmd.ExecuteNonQuery() == 1 ? "OK" : "No se ingreso el registro de forma correcta";
+                SqlParameter ParTelefono = new SqlParameter();
+                ParTelefono.ParameterName = "@telefono";
+                ParTelefono.SqlDbType = SqlDbType.Char;
+                ParTelefono.Size = 15;
+                ParTelefono.Value = Empleado.Telefono;
+                SqlCmd.Parameters.Add(ParTelefono);
+
+                SqlParameter ParEmail = new SqlParameter();
+                ParEmail.ParameterName = "@email";
+                ParEmail.SqlDbType = SqlDbType.Char;
+                ParEmail.Size = 50;
+                ParEmail.Value = Empleado.Email;
+                SqlCmd.Parameters.Add(ParEmail);
+
+                //  Ejecutar el commando
+                Rpta = SqlCmd.ExecuteNonQuery() == 1 ? "OK" : "No se ingresó el empleado de forma correcta";
 
             }
             catch (Exception ex)
@@ -95,14 +108,14 @@ namespace CapaDeDatos
             }
             finally
             {
-                //6. Cerramos la conexion con la BD
+                //  Cerrar la conexion con la BD
                 if (SqlCon.State == ConnectionState.Open) SqlCon.Close();
             }
             return Rpta;
         }
 
         //  Mostrar Empleados
-        public DataTable MostrarEmpleado()
+        public DataTable Mostrar()
         {
             DataTable DtResultado = new DataTable("empleado");
             SqlConnection SqlCon = new SqlConnection();

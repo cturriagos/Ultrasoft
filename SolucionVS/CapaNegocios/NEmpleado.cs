@@ -10,9 +10,20 @@ namespace CapaNegocios
 {
     public class NEmpleado
     {
+        public static string Registrar(string Tipo_identificacion, string Nombres, string Direccion, string Telefono, string Email)
+        {
+            DEmpleado Empleado = new DEmpleado();
+            Empleado.Tipo_Identificacion = Tipo_identificacion;
+            Empleado.Nombres = Nombres;
+            Empleado.Direccion = Direccion;
+            Empleado.Telefono = Telefono;
+            Empleado.Email = Email;
+            return Empleado.Registrar(Empleado);
+        }
+
         public static DataTable Mostrar()
         {
-            return new DEmpleado().MostrarEmpleado();
+            return new DEmpleado().Mostrar();
         }
     }
 }
