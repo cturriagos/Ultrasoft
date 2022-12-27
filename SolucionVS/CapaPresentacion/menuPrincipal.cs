@@ -17,7 +17,6 @@ namespace CapaPresentacion
         public Inicio()
         {
             InitializeComponent();
-            panel4.Visible = false;
         }
         public const int WM_NCLBUTTONDOWN = 0xa1;
         public const int HT_CAPTION = 0x2;
@@ -35,21 +34,9 @@ namespace CapaPresentacion
         {
             if (Program.Cargo == "2")
             {
-                btnConfiguracion.Enabled = false;
-                btnEliminar.Enabled = false;
-                btnProveedor.Enabled = false;
-                btnEmpleado.Enabled = false;
-                btnVenta.Enabled = false;
             }
             if (Program.Cargo == "3")
             {
-                btnConfiguracion.Enabled = false;
-                btnEliminar.Enabled = false;
-                btnProveedor.Enabled = false;
-                btnEmpleado.Enabled = false;
-                btnVenta.Enabled = false;
-                btnCliente.Enabled = false;
-                btnCompra.Enabled = false;
             }
         }
 
@@ -91,7 +78,6 @@ namespace CapaPresentacion
 
         private void btnCompra_Click(object sender, EventArgs e)
         {
-            panel4.Visible = false;
             AbrirFormulario(new Compras());
         }
 
@@ -112,7 +98,6 @@ namespace CapaPresentacion
 
         private void btnVenta_Click(object sender, EventArgs e)
         {
-            panel4.Visible = false;
             //AbrirFormulario(new Venta());
             AbrirFormulario(new frmVentas());
         }
@@ -154,65 +139,38 @@ namespace CapaPresentacion
 
         private void btnCliente_MouseMove(object sender, MouseEventArgs e)
         {
-            panel4.Visible = false;
-            panel2.Visible = false;
-            panel3.Visible = false;
         }
 
         private void btnActividad_MouseMove(object sender, MouseEventArgs e)
         {
-            panel4.Visible = true;
-            panel2.Visible = false;
-            panel3.Visible = false;
         }
 
         private void btnInicio_MouseMove(object sender, MouseEventArgs e)
         {
-            panel4.Visible = false;
-            panel2.Visible = false;
-            panel3.Visible = false;
         }
 
         private void barraTitulo_MouseMove(object sender, MouseEventArgs e)
         {
-            panel4.Visible = false;
-            panel2.Visible = false;
-            panel3.Visible = false;
         }
 
         private void pictureBox4_MouseMove(object sender, MouseEventArgs e)
         {
-            panel4.Visible = false;
-            panel2.Visible = false;
-            panel3.Visible = false;
         }
 
         private void pnlarea_MouseMove(object sender, MouseEventArgs e)
         {
-            panel4.Visible = false;
-            panel2.Visible = false;
-            panel3.Visible = false;
         }
 
         private void pnlContenedor_MouseMove(object sender, MouseEventArgs e)
         {
-            panel4.Visible = false;
-            panel2.Visible = false;
-            panel3.Visible = false;
         }
 
         private void pictureBox1_MouseMove(object sender, MouseEventArgs e)
         {
-            panel4.Visible = false;
-            panel2.Visible = false;
-            panel3.Visible = false;
         }
 
         private void Inicio_MouseMove(object sender, MouseEventArgs e)
         {
-            panel4.Visible = false;
-            panel2.Visible = false;
-            panel3.Visible = false;
         }
 
         private void btnCliente_Click_1(object sender, EventArgs e)
@@ -252,52 +210,38 @@ namespace CapaPresentacion
 
         private void button1_MouseMove(object sender, MouseEventArgs e)
         {
-            panel4.Visible = false;
-            panel2.Visible = true;
-            panel3.Visible = false;
         }
 
         private void btnRegistro_MouseMove(object sender, MouseEventArgs e)
         {
-            panel2.Visible = false;
-            panel3.Visible = false;
         }
 
         private void btnCliente_Click_2(object sender, EventArgs e)
         {
-            panel2.Visible = false;
-            panel3.Visible = false;
             AbrirFormulario(new frmCliente_Proveedor());
         }
 
         private void btnEmpleado_Click_2(object sender, EventArgs e)
         {
-            panel2.Visible = false;
-            panel3.Visible = false;
             AbrirFormulario(new MenuTrabajador());
         }
 
         private void btnProveedor_Click_3(object sender, EventArgs e)
         {
-            panel2.Visible = false;
-            panel3.Visible = false;
             AbrirFormulario(new MenuProveedor());
         }
 
         private void btnConfiguracion_MouseMove(object sender, MouseEventArgs e)
         {
-            panel3.Visible = true;
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            panel3.Visible = false;
             AbrirFormulario(new MenuConfiguracion());
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
-            panel3.Visible = false;
             AbrirFormulario(new DatosDelComercial());
         }
 
