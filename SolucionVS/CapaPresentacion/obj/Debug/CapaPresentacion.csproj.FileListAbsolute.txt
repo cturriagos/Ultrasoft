@@ -372,6 +372,7 @@ C:\Users\jaime\Documents\GitHub\Ultrasoft\SolucionVS\CapaPresentacion\obj\Debug\
 C:\Users\jaime\Documents\GitHub\Ultrasoft\SolucionVS\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CopyComplete
 C:\Users\jaime\Documents\GitHub\Ultrasoft\SolucionVS\CapaPresentacion\obj\Debug\CapaPresentacion.exe
 C:\Users\jaime\Documents\GitHub\Ultrasoft\SolucionVS\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 C:\Users\KELVIN\Documents\GitHub\Ultrasoft\SolucionVS\CapaPresentacion\bin\Debug\SqlServerTypes\x64\msvcr100.dll
@@ -452,3 +453,5 @@ C:\Users\jaime\Documents\GitHub\Ultrasoft\SolucionVS\CapaPresentacion\obj\Debug\
 C:\Users\jaime\Documents\GitHub\Ultrasoft\SolucionVS\CapaPresentacion\obj\Debug\CapaPresentacion.frmListaProductos.resources
 C:\Users\jaime\Documents\GitHub\Ultrasoft\SolucionVS\CapaPresentacion\obj\Debug\CapaPresentacion.frmRegistroProducto.resources
 >>>>>>> Stashed changes
+=======
+>>>>>>> parent of e74710d (Reajuste de pantalla principal)
