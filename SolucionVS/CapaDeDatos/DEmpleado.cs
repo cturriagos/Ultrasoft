@@ -49,6 +49,58 @@ namespace CapaDeDatos
 
         //  Métodos y Funciones
 
+        public string Insertar(DEmpleado Empleado)
+        {
+            string Rpta = "";
+            SqlConnection SqlCon = new SqlConnection();
+            try
+            {
+                SqlCon.ConnectionString = CDConexion.Cn;
+                SqlCon.Open();
+                SqlCommand SqlCmd = new SqlCommand();
+                SqlCmd.Connection = SqlCon;
+                SqlCmd.CommandText = "sp_registrarEmpleado";
+                SqlCmd.CommandType = CommandType.StoredProcedure;
+                
+                SqlParameter ParTipo_identificacion = new SqlParameter();
+                ParTipo_identificacion.ParameterName = "@tipo_identificacion";
+                ParTipo_identificacion.SqlDbType = SqlDbType.Char;
+                ParTipo_identificacion.Size = 1;
+                ParTipo_identificacion.Value = Empleado.Tipo_Identificacion;
+                SqlCmd.Parameters.Add(ParTipo_identificacion);
+
+                SqlParameter ParNombres = new SqlParameter();
+                ParNombres.ParameterName = "@nombres";
+                ParNombres.SqlDbType = SqlDbType.Char;
+                ParNombres.Size = 50;
+                ParNombres.Value = Empleado.Nombres;
+                SqlCmd.Parameters.Add(ParNombres);
+
+                SqlParameter ParDireccion = new SqlParameter();
+                ParDireccion.ParameterName = "@direccion";
+                ParDireccion.SqlDbType = SqlDbType.Char;
+                ParDireccion.Size = 100;
+                ParDireccion.Value = Empleado.Direccion;
+                SqlCmd.Parameters.Add(ParDireccion);
+                //Agregamos el parámetro al comando
+
+                //5. Ejecutamos el commando
+                Rpta = SqlCmd.ExecuteNonQuery() == 1 ? "OK" : "No se ingreso el registro de forma correcta";
+
+            }
+            catch (Exception ex)
+            {
+                Rpta = ex.Message;
+
+            }
+            finally
+            {
+                //6. Cerramos la conexion con la BD
+                if (SqlCon.State == ConnectionState.Open) SqlCon.Close();
+            }
+            return Rpta;
+        }
+
         //  Mostrar Empleados
         public DataTable MostrarEmpleado()
         {
