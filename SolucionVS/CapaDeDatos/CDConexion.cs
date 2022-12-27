@@ -17,7 +17,15 @@ namespace CapaDeDatos
         string clave;
         string cADENA;
         string baseDeDatos;
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
         public static string Cn = "Data Source=.; Initial Catalog=Ultrasoft; Integrated Security=true";
+=======
+        public static string Cn = "Data Source=.; Initial Catalog=Ultrasoft;User ID=sa; Password=123456; Integrated Security=true";
+>>>>>>> Stashed changes
+=======
+        public static string Cn = "Data Source=.; Initial Catalog=Ultrasoft;User ID=sa; Password=123456; Integrated Security=true";
+>>>>>>> Stashed changes
         DataSet sqlDS;
         SqlCommand sqlCom;
         SqlDataAdapter sqlDA;
@@ -40,7 +48,7 @@ namespace CapaDeDatos
 
         }
         //Abir una conexion con la base de datos qu esta en sql Server
-        private SqlConnection Conexion = new SqlConnection();//("Data Source=.;Initial Catalog=BASE DE DATOS DE PROYECTO INTEGRADOR;Integrated Security=True");
+        private SqlConnection Conexion = new SqlConnection(Cn);//("Data Source=.;Initial Catalog=BASE DE DATOS DE PROYECTO INTEGRADOR;Integrated Security=True");
         //Metodo para abrir la conexion
         public SqlConnection AbrirConexion()
         {
@@ -82,6 +90,26 @@ namespace CapaDeDatos
         //    }
 
         //}
-        
+
+        public DataTable ConsultarDatos(string consulta)
+        {
+            DataTable data = new DataTable();
+            try
+            {
+                SqlCommand com = new SqlCommand();
+                com.Connection = AbrirConexion();
+                com.CommandText = consulta;
+                SqlDataReader read;
+                read = com.ExecuteReader();
+                data.Load(read);
+                read.Close();
+                CerrarConexion();
+            }
+            catch (Exception ex)
+            {
+                return null;
+            }
+            return data;
+        }      
     }
 }
