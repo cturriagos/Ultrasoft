@@ -18,8 +18,12 @@ namespace CapaDeDatos
         string cADENA;
         string baseDeDatos;
 <<<<<<< HEAD
+<<<<<<< HEAD
         public static string Cn = "Data Source=.; Initial Catalog=Ultrasoft; Integrated Security=true";
 
+=======
+        public static string Cn = "Data Source=Milenka; Initial Catalog=Ultrasoft; Integrated Security=true";
+>>>>>>> parent of 609a933 (Agregación de la funcionalidad Registrar Clientes_Proveedor)
 =======
         public static string Cn = "Data Source=Milenka; Initial Catalog=Ultrasoft; Integrated Security=true";
 >>>>>>> parent of 609a933 (Agregación de la funcionalidad Registrar Clientes_Proveedor)

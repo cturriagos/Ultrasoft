@@ -41,6 +41,7 @@ namespace CapaPresentacion
             MostrarClienteProveedor();
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         private void btnRegistrar_Click(object sender, EventArgs e)
         {
@@ -59,6 +60,8 @@ namespace CapaPresentacion
         {
 
         }
+=======
+>>>>>>> parent of 609a933 (Agregación de la funcionalidad Registrar Clientes_Proveedor)
 =======
 >>>>>>> parent of 609a933 (Agregación de la funcionalidad Registrar Clientes_Proveedor)
     }

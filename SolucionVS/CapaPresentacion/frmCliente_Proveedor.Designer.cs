@@ -385,8 +385,14 @@
         private System.Windows.Forms.TextBox txtDireccion;
         private System.Windows.Forms.GroupBox groupBox2;
 <<<<<<< HEAD
+<<<<<<< HEAD
         private System.Windows.Forms.Button btnEliminar;
         private System.Windows.Forms.Button btnModificar;
+=======
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button1;
+>>>>>>> parent of 609a933 (Agregación de la funcionalidad Registrar Clientes_Proveedor)
 =======
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Button button2;
