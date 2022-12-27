@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+using CapaNegocios;
+
 namespace CapaPresentacion
 {
     public partial class frmEmpleado : Form
@@ -15,9 +17,24 @@ namespace CapaPresentacion
         public frmEmpleado()
         {
             InitializeComponent();
+        }
+
+        private void frmEmpleado_Load(object sender, EventArgs e)
+        {
             btnEliminar.Enabled = false;
             btnModificar.Enabled = false;
+            this.Mostrar();
+            this.OcultarColumnas();
+        }
 
+        private void Mostrar()
+        {
+            this.dgvEmpleados.DataSource = NEmpleado.Mostrar();
+        }
+
+        private void OcultarColumnas()
+        {
+            this.dgvEmpleados.Columns[0].Visible = false;
         }
     }
 }

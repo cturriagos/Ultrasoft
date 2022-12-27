@@ -17,6 +17,7 @@ namespace CapaDeDatos
         string clave;
         string cADENA;
         string baseDeDatos;
+        public static string Cn = "Data Source=Milenka; Initial Catalog=Ultrasoft; Integrated Security=true";
         DataSet sqlDS;
         SqlCommand sqlCom;
         SqlDataAdapter sqlDA;
@@ -26,8 +27,9 @@ namespace CapaDeDatos
         {
             servidor = ".";//hace referencia a mi equipo
             Usuario = "sa";
-            clave = "094162042";
+            clave = "123456";
             baseDeDatos = "Ultrasoft";
+            
         }
         public CDConexion(string server, string user, string password, string Bd)
         {
@@ -45,7 +47,8 @@ namespace CapaDeDatos
             //abrir coneccion si esta cerrada
             if (Conexion.State == ConnectionState.Closed)
             {
-                Conexion.ConnectionString = "Server= " + servidor + " ; Database= " + baseDeDatos + ";User id =" + Usuario + "; Password= " + clave;
+                Conexion.ConnectionString = Cn;
+                //Conexion.ConnectionString = "Server= " + servidor + " ; Database= " + baseDeDatos + ";User id =" + Usuario + "; Password= " + clave;
                 //establezco la conexion debro de crear el usuario y la clave.
                 Conexion.Open();
             }

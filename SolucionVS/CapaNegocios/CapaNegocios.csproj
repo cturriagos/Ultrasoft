@@ -66,6 +66,7 @@
     <Compile Include="CNVentas.cs" />
     <Compile Include="CNVRFTrabajador.cs" />
     <Compile Include="CN_CompraProducto.cs" />
+    <Compile Include="NEmpleado.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SqlServerTypes\Loader.cs" />
     <Compile Include="VerificarDueño.cs" />
