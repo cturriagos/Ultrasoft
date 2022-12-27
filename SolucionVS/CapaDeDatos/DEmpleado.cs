@@ -124,7 +124,7 @@ namespace CapaDeDatos
                 SqlCon.ConnectionString = CDConexion.Cn;
                 SqlCommand SqlCmd = new SqlCommand();
                 SqlCmd.Connection = SqlCon;
-                SqlCmd.CommandText = "spmostrar_empleado";
+                SqlCmd.CommandText = "sp_mostrarEmpleado";
                 SqlCmd.CommandType = CommandType.StoredProcedure;
 
                 SqlDataAdapter SqlDat = new SqlDataAdapter(SqlCmd);

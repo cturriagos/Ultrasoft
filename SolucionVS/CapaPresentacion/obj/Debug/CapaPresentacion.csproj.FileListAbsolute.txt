@@ -373,3 +373,4 @@ C:\Users\jaime\Documents\GitHub\Ultrasoft\SolucionVS\CapaPresentacion\obj\Debug\
 C:\Users\jaime\Documents\GitHub\Ultrasoft\SolucionVS\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CopyComplete
 C:\Users\jaime\Documents\GitHub\Ultrasoft\SolucionVS\CapaPresentacion\obj\Debug\CapaPresentacion.exe
 C:\Users\jaime\Documents\GitHub\Ultrasoft\SolucionVS\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+C:\Users\Ricardo\Documents\GitHub\Ultrasoft\SolucionVS\CapaPresentacion\obj\Debug\CapaPresentacion.RegistroProducto.resources

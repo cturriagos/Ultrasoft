@@ -32,6 +32,15 @@ namespace CapaPresentacion
             this.dgvEmpleados.DataSource = NEmpleado.Mostrar();
         }
 
+        private void Limpiar()
+        {
+            this.txtNombre.Text = string.Empty;
+            this.txtDireccion.Text = string.Empty;
+            this.txtEmail.Text = string.Empty;
+            this.txtTelefono.Text = string.Empty;
+            this.cmbTipo_identificacion.SelectedIndex = -1;
+        }
+
         private void OcultarColumnas()
         {
             this.dgvEmpleados.Columns[0].Visible = false;
@@ -64,39 +73,36 @@ namespace CapaPresentacion
                 }
                 else
                 {
-                        //Vamos a insertar un producto
-                        Rpta = NEmpleado.Registrar(this.cmbTipo_identificacion.Text,
-                                                   this.txtNombre.Text.ToUpper(), 
-                                                   this.txtDireccion.Text.ToUpper(),
-                                                   this.txtTelefono.Text.ToUpper(),
-                                                   this.txtEmail.Text.ToUpper());
-                    //Si la respuesta fue OK, fue porque se modifico
-                    //o inserto el Producto
-                    //de forma correcta
+                    string cmb = "";
+                    if (this.cmbTipo_identificacion.Text == "Cédula")
+                    {
+                        cmb = "C";
+                    }
+                    else if (this.cmbTipo_identificacion.Text == "Ruc")
+                    {
+                        cmb = "R";
+                    }
+                    else
+                    {
+                        cmb = "P";
+                    }
+
+                    Rpta = NEmpleado.Registrar(cmb,
+                                               this.txtNombre.Text.ToUpper(), 
+                                               this.txtDireccion.Text.ToUpper(),
+                                               this.txtTelefono.Text.ToUpper(),
+                                               this.txtEmail.Text.ToUpper());
                     if (Rpta.Equals("OK"))
                     {
-                        if (this.IsNuevo)
-                        {
-                            this.MensajeOK("Se insertó de forma correcta el registro");
-                        }
-                        else
-                        {
-                            this.MensajeOK("Se actualizó de forma correcta el registro");
-                        }
-
+                        this.MensajeOK("Se insertó de forma correcta el empleado");
                     }
                     else
                     {
                         //Mostramos el mensaje de error
                         this.MensajeError(Rpta);
                     }
-                    this.IsNuevo = false;
-                    this.IsModificar = false;
-                    this.Botones();
-                    this.Limpiar();
                     this.Mostrar();
-                    this.txtIdcategoria.Text = "";
-
+                    this.Limpiar();
                 }
             }
 
