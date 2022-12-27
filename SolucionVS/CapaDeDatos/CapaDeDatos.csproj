@@ -63,6 +63,7 @@
     <Compile Include="CDAgregarProveedor.cs" />
     <Compile Include="CDAgregarTrabajador.cs" />
     <Compile Include="CDAgregarUsuario.cs" />
+    <Compile Include="CDclienteProveedor.cs" />
     <Compile Include="CDConexion.cs" />
     <Compile Include="CDDueñoComercial.cs" />
     <Compile Include="CDRegistros.cs" />

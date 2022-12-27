@@ -17,7 +17,7 @@ namespace CapaDeDatos
         string clave;
         string cADENA;
         string baseDeDatos;
-        public static string Cn = "Data Source=Milenka; Initial Catalog=Ultrasoft; Integrated Security=true";
+        public static string Cn = "Data Source=.; Initial Catalog=Ultrasoft; Integrated Security=true";
         DataSet sqlDS;
         SqlCommand sqlCom;
         SqlDataAdapter sqlDA;

@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using CapaNegocios;
 
 namespace CapaPresentacion
 {
@@ -35,6 +36,14 @@ namespace CapaPresentacion
         private void frmCliente_Proveedor_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnRegistrar_Click(object sender, EventArgs e)
+        {
+            CNclienteProveedor conexion = new CNclienteProveedor();
+            conexion.insertarClienteProveedor(cmbTipoIdentidaad.Text, txtIdentificacion.Text, txtRazonSocial.Text,
+            txtNomComercial.Text, txtDireccion.Text, txtTelefono.Text, txtEmail.Text, cmbTipoEntidad.Text);
+            MessageBox.Show("se inserto correctamente");
         }
     }
 }
