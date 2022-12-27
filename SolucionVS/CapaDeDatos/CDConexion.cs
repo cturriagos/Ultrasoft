@@ -17,15 +17,8 @@ namespace CapaDeDatos
         string clave;
         string cADENA;
         string baseDeDatos;
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
         public static string Cn = "Data Source=.; Initial Catalog=Ultrasoft; Integrated Security=true";
-=======
-        public static string Cn = "Data Source=.; Initial Catalog=Ultrasoft;User ID=sa; Password=123456; Integrated Security=true";
->>>>>>> Stashed changes
-=======
-        public static string Cn = "Data Source=.; Initial Catalog=Ultrasoft;User ID=sa; Password=123456; Integrated Security=true";
->>>>>>> Stashed changes
+
         DataSet sqlDS;
         SqlCommand sqlCom;
         SqlDataAdapter sqlDA;
