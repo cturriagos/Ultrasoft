@@ -374,3 +374,5 @@ C:\Users\liste\Documents\GitHub\Ultrasoft\SolucionVS\CapaPresentacion\bin\Releas
 C:\Users\liste\Documents\GitHub\Ultrasoft\SolucionVS\CapaPresentacion\obj\Release\CapaPresentacion.csprojAssemblyReference.cache
 C:\Users\liste\Documents\GitHub\Ultrasoft\SolucionVS\CapaPresentacion\obj\Release\CapaPresentacion.csproj.CoreCompileInputs.cache
 C:\Users\liste\Documents\GitHub\Ultrasoft\SolucionVS\CapaPresentacion\obj\Release\CapaPresentacion.csproj.CopyComplete
+C:\Users\liste\Documents\GitHub\Ultrasoft\SolucionVS\CapaPresentacion\obj\Release\CapaPresentacion.frmEmpleado.resources
+C:\Users\liste\Documents\GitHub\Ultrasoft\SolucionVS\CapaPresentacion\obj\Release\CapaPresentacion.RegistroProducto.resources

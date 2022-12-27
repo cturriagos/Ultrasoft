@@ -267,7 +267,7 @@ namespace CapaPresentacion
         {
             panel2.Visible = false;
             panel3.Visible = false;
-            AbrirFormulario(new MenuCliente());
+            AbrirFormulario(new frmCliente_Proveedor());
         }
 
         private void btnEmpleado_Click_2(object sender, EventArgs e)
