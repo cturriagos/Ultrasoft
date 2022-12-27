@@ -44,9 +44,10 @@
             this.pnlInicio.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pnlInicio.Controls.Add(this.lblFecha);
             this.pnlInicio.Controls.Add(this.lblHora);
-            this.pnlInicio.Location = new System.Drawing.Point(-2, 0);
+            this.pnlInicio.Location = new System.Drawing.Point(-6, 0);
+            this.pnlInicio.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
             this.pnlInicio.Name = "pnlInicio";
-            this.pnlInicio.Size = new System.Drawing.Size(1271, 585);
+            this.pnlInicio.Size = new System.Drawing.Size(3594, 1613);
             this.pnlInicio.TabIndex = 5;
             this.pnlInicio.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlInicio_Paint);
             // 
@@ -55,9 +56,10 @@
             this.lblFecha.BackColor = System.Drawing.Color.White;
             this.lblFecha.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblFecha.ForeColor = System.Drawing.Color.Gray;
-            this.lblFecha.Location = new System.Drawing.Point(552, 239);
+            this.lblFecha.Location = new System.Drawing.Point(1527, 1049);
+            this.lblFecha.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
             this.lblFecha.Name = "lblFecha";
-            this.lblFecha.Size = new System.Drawing.Size(707, 91);
+            this.lblFecha.Size = new System.Drawing.Size(2003, 252);
             this.lblFecha.TabIndex = 1;
             this.lblFecha.Text = "label1";
             this.lblFecha.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -68,9 +70,10 @@
             this.lblHora.BackColor = System.Drawing.Color.White;
             this.lblHora.Font = new System.Drawing.Font("Microsoft Sans Serif", 99.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblHora.ForeColor = System.Drawing.Color.Blue;
-            this.lblHora.Location = new System.Drawing.Point(558, 45);
+            this.lblHora.Location = new System.Drawing.Point(1527, 434);
+            this.lblHora.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
             this.lblHora.Name = "lblHora";
-            this.lblHora.Size = new System.Drawing.Size(594, 207);
+            this.lblHora.Size = new System.Drawing.Size(2003, 573);
             this.lblHora.TabIndex = 0;
             this.lblHora.Text = "label1";
             this.lblHora.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -83,11 +86,12 @@
             // 
             // menuInicio
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(17F, 36F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1271, 585);
+            this.ClientSize = new System.Drawing.Size(3601, 1620);
             this.Controls.Add(this.pnlInicio);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
             this.Name = "menuInicio";
             this.StartPosition = System.Windows.Forms.FormStartPosition.WindowsDefaultBounds;
             this.Text = "menuInicio";
