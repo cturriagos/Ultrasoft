@@ -355,7 +355,6 @@ C:\Users\jaime\Documents\GitHub\Ultrasoft\SolucionVS\CapaPresentacion\obj\Debug\
 C:\Users\jaime\Documents\GitHub\Ultrasoft\SolucionVS\CapaPresentacion\obj\Debug\CapaPresentacion.Proveedor_Registro.resources
 C:\Users\jaime\Documents\GitHub\Ultrasoft\SolucionVS\CapaPresentacion\obj\Debug\CapaPresentacion.Registro_Eliminar.resources
 C:\Users\jaime\Documents\GitHub\Ultrasoft\SolucionVS\CapaPresentacion\obj\Debug\CapaPresentacion.Registro.resources
-C:\Users\jaime\Documents\GitHub\Ultrasoft\SolucionVS\CapaPresentacion\obj\Debug\CapaPresentacion.RegistroProducto.resources
 C:\Users\jaime\Documents\GitHub\Ultrasoft\SolucionVS\CapaPresentacion\obj\Debug\CapaPresentacion.Reportes.resources
 C:\Users\jaime\Documents\GitHub\Ultrasoft\SolucionVS\CapaPresentacion\obj\Debug\CapaPresentacion.ComprobanteVenta.resources
 C:\Users\jaime\Documents\GitHub\Ultrasoft\SolucionVS\CapaPresentacion\obj\Debug\CapaPresentacion.Reporte_Cliente.resources
@@ -373,6 +372,7 @@ C:\Users\jaime\Documents\GitHub\Ultrasoft\SolucionVS\CapaPresentacion\obj\Debug\
 C:\Users\jaime\Documents\GitHub\Ultrasoft\SolucionVS\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CopyComplete
 C:\Users\jaime\Documents\GitHub\Ultrasoft\SolucionVS\CapaPresentacion\obj\Debug\CapaPresentacion.exe
 C:\Users\jaime\Documents\GitHub\Ultrasoft\SolucionVS\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+<<<<<<< Updated upstream
 C:\Users\KELVIN\Documents\GitHub\Ultrasoft\SolucionVS\CapaPresentacion\bin\Debug\SqlServerTypes\x64\msvcr100.dll
 C:\Users\KELVIN\Documents\GitHub\Ultrasoft\SolucionVS\CapaPresentacion\bin\Debug\SqlServerTypes\x64\SqlServerSpatial110.dll
 C:\Users\KELVIN\Documents\GitHub\Ultrasoft\SolucionVS\CapaPresentacion\bin\Debug\SqlServerTypes\x86\msvcr100.dll
@@ -443,3 +443,7 @@ C:\Users\KELVIN\Documents\GitHub\Ultrasoft\SolucionVS\CapaPresentacion\obj\Debug
 C:\Users\KELVIN\Documents\GitHub\Ultrasoft\SolucionVS\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CopyComplete
 C:\Users\KELVIN\Documents\GitHub\Ultrasoft\SolucionVS\CapaPresentacion\obj\Debug\CapaPresentacion.exe
 C:\Users\KELVIN\Documents\GitHub\Ultrasoft\SolucionVS\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+=======
+C:\Users\jaime\Documents\GitHub\Ultrasoft\SolucionVS\CapaPresentacion\obj\Debug\CapaPresentacion.frmListaProductos.resources
+C:\Users\jaime\Documents\GitHub\Ultrasoft\SolucionVS\CapaPresentacion\obj\Debug\CapaPresentacion.frmRegistroProducto.resources
+>>>>>>> Stashed changes

@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace CapaPresentacion
 {
-    public partial class ListaProductos : Form
+    public partial class frmRegistroProducto : Form
     {
-        public ListaProductos()
+        public frmRegistroProducto()
         {
             InitializeComponent();
+        }
+
+        private void lblPrecioCompra_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -190,7 +190,7 @@ namespace CapaPresentacion
 
         private void btnRegistro_Click_1(object sender, EventArgs e)
         {
-            AbrirFormulario(new Registro());
+            AbrirFormulario(new frmListaProductos());
             
         }
 
@@ -218,12 +218,23 @@ namespace CapaPresentacion
 
         private void btnCliente_Click_2(object sender, EventArgs e)
         {
+<<<<<<< Updated upstream
+=======
+            panel2.Visible = false;
+            panel3.Visible = false;
+>>>>>>> Stashed changes
             AbrirFormulario(new frmCliente_Proveedor());
         }
 
         private void btnEmpleado_Click_2(object sender, EventArgs e)
         {
+<<<<<<< Updated upstream
             AbrirFormulario(new MenuTrabajador());
+=======
+            panel2.Visible = false;
+            panel3.Visible = false;
+            AbrirFormulario(new frmEmpleado());
+>>>>>>> Stashed changes
         }
 
         private void btnProveedor_Click_3(object sender, EventArgs e)

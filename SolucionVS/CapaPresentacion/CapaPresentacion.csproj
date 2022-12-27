@@ -202,6 +202,12 @@
       <DependentUpon>frmVentas.cs</DependentUpon>
     </Compile>
     <Compile Include="Imagen.cs" />
+    <Compile Include="frmListaProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmListaProductos.Designer.cs">
+      <DependentUpon>frmListaProductos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Logim.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -288,11 +294,11 @@
     <Compile Include="Registro.Designer.cs">
       <DependentUpon>Registro.cs</DependentUpon>
     </Compile>
-    <Compile Include="RegistroProducto.cs">
+    <Compile Include="frmRegistroProducto.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="RegistroProducto.Designer.cs">
-      <DependentUpon>RegistroProducto.cs</DependentUpon>
+    <Compile Include="frmRegistroProducto.Designer.cs">
+      <DependentUpon>frmRegistroProducto.cs</DependentUpon>
     </Compile>
     <Compile Include="Reportes.cs">
       <SubType>Form</SubType>
@@ -424,6 +430,9 @@
     <EmbeddedResource Include="frmVentas.resx">
       <DependentUpon>frmVentas.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmListaProductos.resx">
+      <DependentUpon>frmListaProductos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Logim.resx">
       <DependentUpon>Logim.cs</DependentUpon>
     </EmbeddedResource>
@@ -476,8 +485,8 @@
     <EmbeddedResource Include="Registro.resx">
       <DependentUpon>Registro.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="RegistroProducto.resx">
-      <DependentUpon>RegistroProducto.cs</DependentUpon>
+    <EmbeddedResource Include="frmRegistroProducto.resx">
+      <DependentUpon>frmRegistroProducto.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Reportes.resx">
       <DependentUpon>Reportes.cs</DependentUpon>
