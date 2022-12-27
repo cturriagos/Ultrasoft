@@ -1,0 +1,26 @@
+USE [Ultrasoft]
+GO
+
+/****** Object:  StoredProcedure [dbo].[sp_insertarMetrica]    Script Date: 27/12/2022 00:28:03 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+ALTER PROCEDURE [dbo].[sp_insertarMetrica]   
+    @nombreMetrica nvarchar(30),   
+    @simbolo char(3)   
+AS   
+DECLARE @id int
+
+SELECT @id = MAX(ID_METRICA) + 1 FROM METRICA WITH (UPDLOCK, HOLDLOCK)
+
+
+    INSERT INTO METRICA (ID_METRICA, NOMBRE_METRICA, SIMBOLO)
+VALUES (@id, @nombreMetrica, @simbolo);
+
+
+GO
+
+

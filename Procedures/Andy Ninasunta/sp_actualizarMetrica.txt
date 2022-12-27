@@ -1,0 +1,24 @@
+USE [Ultrasoft]
+GO
+
+/****** Object:  StoredProcedure [dbo].[sp_actualizarMetrica]    Script Date: 27/12/2022 00:27:01 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+ 
+ALTER PROCEDURE [dbo].[sp_actualizarMetrica]   
+  @idMetrica int,   
+    @nombreMetrica nvarchar(30),   
+    @simbolo char(3)   
+AS   
+
+UPDATE METRICA 
+SET NOMBRE_METRICA=@nombreMetrica,
+	SIMBOLO=@simbolo
+WHERE ID_METRICA=@idMetrica
+
+
+GO

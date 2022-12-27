@@ -1,0 +1,17 @@
+USE [Ultrasoft]
+GO
+
+/****** Object:  StoredProcedure [dbo].[sp_obtenerMetricas]    Script Date: 27/12/2022 00:28:44 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+ALTER PROCEDURE [dbo].[sp_obtenerMetricas]
+AS   
+	select * from METRICA
+	RETURN ;
+GO
+
+

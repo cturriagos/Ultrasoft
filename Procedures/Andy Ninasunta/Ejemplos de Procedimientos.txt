@@ -1,0 +1,11 @@
+Use Ultrasoft
+
+
+--Para obtener las métricas
+exec sp_obtenerMetricas
+
+--Para insertar Métrica
+EXEC sp_insertarMetrica @nombreMetrica = 'Decagramo',@simbolo='Dg'
+
+--Para actualizar Métrica
+EXEC sp_actualizarMetrica @idMetrica=2,@nombreMetrica = 'gramo',@simbolo='Gr'
