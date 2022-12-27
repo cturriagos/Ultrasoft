@@ -222,6 +222,9 @@ namespace CapaPresentacion
 =======
             panel2.Visible = false;
             panel3.Visible = false;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
             AbrirFormulario(new frmCliente_Proveedor());
         }
@@ -234,6 +237,9 @@ namespace CapaPresentacion
             panel2.Visible = false;
             panel3.Visible = false;
             AbrirFormulario(new frmEmpleado());
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
         }
 

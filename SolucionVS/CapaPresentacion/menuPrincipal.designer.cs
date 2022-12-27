@@ -59,9 +59,15 @@
             this.barraTitulo.Dock = System.Windows.Forms.DockStyle.Top;
             this.barraTitulo.Location = new System.Drawing.Point(0, 0);
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             this.barraTitulo.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
             this.barraTitulo.Name = "barraTitulo";
             this.barraTitulo.Size = new System.Drawing.Size(3638, 97);
+=======
+            this.barraTitulo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.barraTitulo.Name = "barraTitulo";
+            this.barraTitulo.Size = new System.Drawing.Size(1712, 43);
+>>>>>>> Stashed changes
 =======
             this.barraTitulo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.barraTitulo.Name = "barraTitulo";
@@ -82,15 +88,21 @@
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.SystemColors.AppWorkspace;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             this.button4.Location = new System.Drawing.Point(3434, 0);
             this.button4.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(99, 89);
 =======
+=======
+>>>>>>> Stashed changes
             this.button4.Location = new System.Drawing.Point(1616, 0);
             this.button4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(47, 39);
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
             this.button4.TabIndex = 2;
             this.button4.Text = "-";
@@ -107,10 +119,17 @@
             this.cerrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cerrar.ForeColor = System.Drawing.SystemColors.AppWorkspace;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             this.cerrar.Location = new System.Drawing.Point(3542, 0);
             this.cerrar.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
             this.cerrar.Name = "cerrar";
             this.cerrar.Size = new System.Drawing.Size(99, 89);
+=======
+            this.cerrar.Location = new System.Drawing.Point(1667, 0);
+            this.cerrar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cerrar.Name = "cerrar";
+            this.cerrar.Size = new System.Drawing.Size(47, 39);
+>>>>>>> Stashed changes
 =======
             this.cerrar.Location = new System.Drawing.Point(1667, 0);
             this.cerrar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
@@ -125,6 +144,7 @@
             // pnlarea
             // 
             this.pnlarea.BackColor = System.Drawing.SystemColors.Control;
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
             this.pnlarea.Location = new System.Drawing.Point(17, 263);
             this.pnlarea.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
@@ -152,6 +172,8 @@
             this.btnProductos.Click += new System.EventHandler(this.btnActividad_Click);
             this.btnProductos.MouseMove += new System.Windows.Forms.MouseEventHandler(this.btnActividad_MouseMove);
 =======
+=======
+>>>>>>> Stashed changes
             this.pnlarea.Location = new System.Drawing.Point(8, 117);
             this.pnlarea.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pnlarea.Name = "pnlarea";
@@ -232,6 +254,7 @@
             this.pnlContenedor.Controls.Add(this.btnInicio);
             this.pnlContenedor.Dock = System.Windows.Forms.DockStyle.Top;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             this.pnlContenedor.Location = new System.Drawing.Point(0, 97);
             this.pnlContenedor.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
             this.pnlContenedor.Name = "pnlContenedor";
@@ -278,6 +301,11 @@
             this.pnlContenedor.Location = new System.Drawing.Point(0, 43);
             this.pnlContenedor.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pnlContenedor.Name = "pnlContenedor";
+=======
+            this.pnlContenedor.Location = new System.Drawing.Point(0, 43);
+            this.pnlContenedor.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pnlContenedor.Name = "pnlContenedor";
+>>>>>>> Stashed changes
             this.pnlContenedor.Size = new System.Drawing.Size(1712, 54);
             this.pnlContenedor.TabIndex = 6;
             this.pnlContenedor.MouseMove += new System.Windows.Forms.MouseEventHandler(this.pnlContenedor_MouseMove);
@@ -328,9 +356,15 @@
             this.pictureBox3.BackColor = System.Drawing.Color.Blue;
             this.pictureBox3.Location = new System.Drawing.Point(0, 0);
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             this.pictureBox3.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(28, 122);
+=======
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(13, 54);
+>>>>>>> Stashed changes
 =======
             this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox3.Name = "pictureBox3";
@@ -342,6 +376,7 @@
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Blue;
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
             this.pictureBox2.Location = new System.Drawing.Point(3612, -3);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
@@ -390,6 +425,11 @@
             this.pictureBox2.Location = new System.Drawing.Point(1700, -1);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox2.Name = "pictureBox2";
+=======
+            this.pictureBox2.Location = new System.Drawing.Point(1700, -1);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox2.Name = "pictureBox2";
+>>>>>>> Stashed changes
             this.pictureBox2.Size = new System.Drawing.Size(13, 54);
             this.pictureBox2.TabIndex = 0;
             this.pictureBox2.TabStop = false;
@@ -445,10 +485,17 @@
             this.btnInicio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnInicio.Image = global::CapaPresentacion.Properties.Resources.Home_35px;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             this.btnInicio.Location = new System.Drawing.Point(17, 0);
             this.btnInicio.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
             this.btnInicio.Name = "btnInicio";
             this.btnInicio.Size = new System.Drawing.Size(156, 122);
+=======
+            this.btnInicio.Location = new System.Drawing.Point(8, 0);
+            this.btnInicio.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnInicio.Name = "btnInicio";
+            this.btnInicio.Size = new System.Drawing.Size(73, 54);
+>>>>>>> Stashed changes
 =======
             this.btnInicio.Location = new System.Drawing.Point(8, 0);
             this.btnInicio.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
@@ -615,6 +662,9 @@
             this.pictureBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(1712, 16);
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
             this.pictureBox4.TabIndex = 5;
             this.pictureBox4.TabStop = false;
@@ -624,15 +674,21 @@
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Blue;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             this.pictureBox1.Location = new System.Drawing.Point(0, 219);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(3638, 28);
 =======
+=======
+>>>>>>> Stashed changes
             this.pictureBox1.Location = new System.Drawing.Point(0, 97);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(1712, 12);
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
@@ -675,7 +731,11 @@
             this.Controls.Add(this.barraTitulo);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             this.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
+=======
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+>>>>>>> Stashed changes
 =======
             this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
 >>>>>>> Stashed changes
