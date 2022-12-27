@@ -19,5 +19,12 @@ namespace CapaNegocios
             obje.insertarClienteProveedor(TipoIdentifacion, identifiacion, razonSocial, nomComercial, direccion,
                 telefono, email, tipoEntidad);
         }
+
+        public DataTable MostrarClientesProveedor()
+        {
+            DataTable tabla = new DataTable();
+            tabla = obje.MostrarDatos() ;
+            return tabla;
+        }
     }
 }

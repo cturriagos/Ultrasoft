@@ -33,5 +33,19 @@ namespace CapaDeDatos
             comando.Parameters.Clear();
             conexion.CerrarConexion();
         }
+
+
+        public DataTable MostrarDatos()
+        {
+
+            comando.Connection = conexion.AbrirConexion();
+            comando.CommandText = "sp_mostraDatosClientesProv";
+            comando.CommandType = CommandType.StoredProcedure;
+            leer = comando.ExecuteReader();
+            tabla.Load(leer);
+            conexion.CerrarConexion();
+            return tabla;
+
+        }
     }
 }
