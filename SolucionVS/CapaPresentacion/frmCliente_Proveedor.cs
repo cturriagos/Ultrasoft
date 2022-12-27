@@ -7,7 +7,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using CapaNegocios;
 
 namespace CapaPresentacion
 
@@ -41,6 +40,7 @@ namespace CapaPresentacion
         {
             MostrarClienteProveedor();
         }
+<<<<<<< HEAD
 
         private void btnRegistrar_Click(object sender, EventArgs e)
         {
@@ -59,5 +59,7 @@ namespace CapaPresentacion
         {
 
         }
+=======
+>>>>>>> parent of 609a933 (Agregación de la funcionalidad Registrar Clientes_Proveedor)
     }
 }

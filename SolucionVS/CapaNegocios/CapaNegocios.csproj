@@ -60,7 +60,6 @@
     <Compile Include="CNAgregarProveedor.cs" />
     <Compile Include="CNAgregarTrabajador.cs" />
     <Compile Include="CNAgregarUsuario.cs" />
-    <Compile Include="CNclienteProveedor.cs" />
     <Compile Include="CNDueñoComercial.cs" />
     <Compile Include="CNRegistros.cs" />
     <Compile Include="CNUsuario.cs" />
