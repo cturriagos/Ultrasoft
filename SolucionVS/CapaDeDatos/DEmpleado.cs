@@ -55,7 +55,7 @@ namespace CapaDeDatos
             DataTable DtResultado = new DataTable("empleado");
             SqlConnection SqlCon = new SqlConnection();
             try
-            {
+            {   
                 SqlCon.ConnectionString = CDConexion.Cn;
                 SqlCommand SqlCmd = new SqlCommand();
                 SqlCmd.Connection = SqlCon;
