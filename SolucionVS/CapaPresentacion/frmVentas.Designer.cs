@@ -28,12 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.label1 = new System.Windows.Forms.Label();
             this.lblNumFactura = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.txtDniCliente = new System.Windows.Forms.TextBox();
-            this.btnVerificaCliente = new System.Windows.Forms.Button();
+            this.BtnVerificaCliente = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.dgvDatosCliente = new System.Windows.Forms.DataGridView();
             this.label7 = new System.Windows.Forms.Label();
@@ -55,12 +57,14 @@
             this.label13 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.txtTotal = new System.Windows.Forms.TextBox();
-            this.btnCobrar = new System.Windows.Forms.Button();
-            this.btnRegistrarProducto = new System.Windows.Forms.Button();
+            this.BtnCobrar = new System.Windows.Forms.Button();
+            this.BtnRegistrarProducto = new System.Windows.Forms.Button();
             this.dtpFechaVenta = new System.Windows.Forms.DateTimePicker();
             this.label18 = new System.Windows.Forms.Label();
             this.txtVendedor = new System.Windows.Forms.TextBox();
             this.txtMetrica = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDatosCliente)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDetalleVenta)).BeginInit();
             this.SuspendLayout();
@@ -113,16 +117,16 @@
             this.txtDniCliente.Size = new System.Drawing.Size(235, 27);
             this.txtDniCliente.TabIndex = 6;
             // 
-            // btnVerificaCliente
+            // BtnVerificaCliente
             // 
-            this.btnVerificaCliente.Font = new System.Drawing.Font("Segoe UI Emoji", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVerificaCliente.Location = new System.Drawing.Point(412, 77);
-            this.btnVerificaCliente.Name = "btnVerificaCliente";
-            this.btnVerificaCliente.Size = new System.Drawing.Size(84, 26);
-            this.btnVerificaCliente.TabIndex = 7;
-            this.btnVerificaCliente.Text = "Verificar";
-            this.btnVerificaCliente.UseVisualStyleBackColor = true;
-            this.btnVerificaCliente.Click += new System.EventHandler(this.btnVerificaCliente_Click);
+            this.BtnVerificaCliente.Font = new System.Drawing.Font("Segoe UI Emoji", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnVerificaCliente.Location = new System.Drawing.Point(412, 77);
+            this.BtnVerificaCliente.Name = "BtnVerificaCliente";
+            this.BtnVerificaCliente.Size = new System.Drawing.Size(84, 26);
+            this.BtnVerificaCliente.TabIndex = 7;
+            this.BtnVerificaCliente.Text = "Verificar";
+            this.BtnVerificaCliente.UseVisualStyleBackColor = true;
+            this.BtnVerificaCliente.Click += new System.EventHandler(this.BtnVerificaCliente_Click);
             // 
             // label6
             // 
@@ -137,6 +141,14 @@
             // dgvDatosCliente
             // 
             this.dgvDatosCliente.AllowUserToAddRows = false;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvDatosCliente.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dgvDatosCliente.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvDatosCliente.Location = new System.Drawing.Point(30, 135);
             this.dgvDatosCliente.Name = "dgvDatosCliente";
@@ -149,7 +161,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Segoe UI Emoji", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(32, 281);
+            this.label7.Location = new System.Drawing.Point(32, 299);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(86, 20);
             this.label7.TabIndex = 10;
@@ -169,7 +181,7 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Segoe UI Emoji", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(32, 319);
+            this.label9.Location = new System.Drawing.Point(53, 345);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(65, 20);
             this.label9.TabIndex = 13;
@@ -179,7 +191,7 @@
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Segoe UI Emoji", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(32, 354);
+            this.label10.Location = new System.Drawing.Point(33, 392);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(86, 20);
             this.label10.TabIndex = 14;
@@ -188,35 +200,38 @@
             // txtPrecio
             // 
             this.txtPrecio.Font = new System.Drawing.Font("Segoe UI Emoji", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPrecio.Location = new System.Drawing.Point(125, 319);
+            this.txtPrecio.Location = new System.Drawing.Point(125, 342);
             this.txtPrecio.Name = "txtPrecio";
             this.txtPrecio.ReadOnly = true;
             this.txtPrecio.Size = new System.Drawing.Size(94, 27);
             this.txtPrecio.TabIndex = 16;
+            this.txtPrecio.Text = "0,00";
+            this.txtPrecio.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(225, 319);
+            this.label11.Font = new System.Drawing.Font("Segoe UI Emoji", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(220, 341);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(20, 21);
+            this.label11.Size = new System.Drawing.Size(23, 26);
             this.label11.TabIndex = 17;
             this.label11.Text = "$";
             // 
             // txtCantidad
             // 
             this.txtCantidad.Font = new System.Drawing.Font("Segoe UI Emoji", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCantidad.Location = new System.Drawing.Point(125, 351);
+            this.txtCantidad.Location = new System.Drawing.Point(125, 389);
             this.txtCantidad.Name = "txtCantidad";
             this.txtCantidad.Size = new System.Drawing.Size(94, 27);
             this.txtCantidad.TabIndex = 18;
+            this.txtCantidad.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label12
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Segoe UI Emoji", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(32, 387);
+            this.label12.Location = new System.Drawing.Point(43, 438);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(75, 20);
             this.label12.TabIndex = 20;
@@ -231,14 +246,22 @@
             "Café",
             "Arroz",
             "Cacao"});
-            this.cbxProducto.Location = new System.Drawing.Point(125, 281);
+            this.cbxProducto.Location = new System.Drawing.Point(125, 296);
             this.cbxProducto.Name = "cbxProducto";
             this.cbxProducto.Size = new System.Drawing.Size(211, 28);
             this.cbxProducto.TabIndex = 21;
-            this.cbxProducto.SelectedIndexChanged += new System.EventHandler(this.cbxProducto_SelectedIndexChanged);
+            this.cbxProducto.SelectedIndexChanged += new System.EventHandler(this.CbxProducto_SelectedIndexChanged);
             // 
             // dgvDetalleVenta
             // 
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvDetalleVenta.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.dgvDetalleVenta.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvDetalleVenta.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Id_Producto,
@@ -316,27 +339,29 @@
             this.txtTotal.Name = "txtTotal";
             this.txtTotal.Size = new System.Drawing.Size(167, 24);
             this.txtTotal.TabIndex = 29;
+            this.txtTotal.Text = "0,00";
+            this.txtTotal.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // btnCobrar
+            // BtnCobrar
             // 
-            this.btnCobrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCobrar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCobrar.Location = new System.Drawing.Point(1052, 502);
-            this.btnCobrar.Name = "btnCobrar";
-            this.btnCobrar.Size = new System.Drawing.Size(178, 42);
-            this.btnCobrar.TabIndex = 30;
-            this.btnCobrar.Text = "Cobrar";
-            this.btnCobrar.UseVisualStyleBackColor = true;
+            this.BtnCobrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnCobrar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnCobrar.Location = new System.Drawing.Point(1052, 502);
+            this.BtnCobrar.Name = "BtnCobrar";
+            this.BtnCobrar.Size = new System.Drawing.Size(178, 42);
+            this.BtnCobrar.TabIndex = 30;
+            this.BtnCobrar.Text = "Cobrar";
+            this.BtnCobrar.UseVisualStyleBackColor = true;
             // 
-            // btnRegistrarProducto
+            // BtnRegistrarProducto
             // 
-            this.btnRegistrarProducto.Font = new System.Drawing.Font("Segoe UI Emoji", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRegistrarProducto.Location = new System.Drawing.Point(99, 445);
-            this.btnRegistrarProducto.Name = "btnRegistrarProducto";
-            this.btnRegistrarProducto.Size = new System.Drawing.Size(147, 40);
-            this.btnRegistrarProducto.TabIndex = 32;
-            this.btnRegistrarProducto.Text = "Registrar";
-            this.btnRegistrarProducto.UseVisualStyleBackColor = true;
+            this.BtnRegistrarProducto.Font = new System.Drawing.Font("Segoe UI Emoji", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnRegistrarProducto.Location = new System.Drawing.Point(103, 479);
+            this.BtnRegistrarProducto.Name = "BtnRegistrarProducto";
+            this.BtnRegistrarProducto.Size = new System.Drawing.Size(168, 40);
+            this.BtnRegistrarProducto.TabIndex = 32;
+            this.BtnRegistrarProducto.Text = "Registrar";
+            this.BtnRegistrarProducto.UseVisualStyleBackColor = true;
             // 
             // dtpFechaVenta
             // 
@@ -370,23 +395,47 @@
             // txtMetrica
             // 
             this.txtMetrica.Font = new System.Drawing.Font("Segoe UI Emoji", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtMetrica.Location = new System.Drawing.Point(125, 384);
+            this.txtMetrica.Location = new System.Drawing.Point(125, 435);
             this.txtMetrica.Name = "txtMetrica";
             this.txtMetrica.ReadOnly = true;
             this.txtMetrica.Size = new System.Drawing.Size(121, 27);
             this.txtMetrica.TabIndex = 38;
+            this.txtMetrica.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Segoe UI Emoji", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(83, 252);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(35, 20);
+            this.label2.TabIndex = 39;
+            this.label2.Text = "ID :";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Font = new System.Drawing.Font("Segoe UI Emoji", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(125, 252);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.ReadOnly = true;
+            this.textBox1.Size = new System.Drawing.Size(73, 27);
+            this.textBox1.TabIndex = 40;
+            this.textBox1.Text = "0";
+            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // frmVentas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1255, 550);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.txtMetrica);
             this.Controls.Add(this.txtVendedor);
             this.Controls.Add(this.label18);
             this.Controls.Add(this.dtpFechaVenta);
-            this.Controls.Add(this.btnRegistrarProducto);
-            this.Controls.Add(this.btnCobrar);
+            this.Controls.Add(this.BtnRegistrarProducto);
+            this.Controls.Add(this.BtnCobrar);
             this.Controls.Add(this.txtTotal);
             this.Controls.Add(this.label16);
             this.Controls.Add(this.label13);
@@ -402,7 +451,7 @@
             this.Controls.Add(this.label7);
             this.Controls.Add(this.dgvDatosCliente);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.btnVerificaCliente);
+            this.Controls.Add(this.BtnVerificaCliente);
             this.Controls.Add(this.txtDniCliente);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -425,7 +474,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox txtDniCliente;
-        private System.Windows.Forms.Button btnVerificaCliente;
+        private System.Windows.Forms.Button BtnVerificaCliente;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.DataGridView dgvDatosCliente;
         private System.Windows.Forms.Label label7;
@@ -441,8 +490,8 @@
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.TextBox txtTotal;
-        private System.Windows.Forms.Button btnCobrar;
-        private System.Windows.Forms.Button btnRegistrarProducto;
+        private System.Windows.Forms.Button BtnCobrar;
+        private System.Windows.Forms.Button BtnRegistrarProducto;
         private System.Windows.Forms.DateTimePicker dtpFechaVenta;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.TextBox txtVendedor;
@@ -453,5 +502,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Metrica;
         private System.Windows.Forms.DataGridViewTextBoxColumn Precio_Unitario;
         private System.Windows.Forms.DataGridViewTextBoxColumn SubTotal;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }

@@ -13,15 +13,14 @@ namespace CapaPresentacion
 {
     public partial class frmVentas : Form
     {
-        private NCliente_Proveedor _NCliente_Proveedor;
+        private readonly NCliente_Proveedor _NCliente_Proveedor;
         public frmVentas()
         {
             InitializeComponent();
             this._NCliente_Proveedor = new NCliente_Proveedor();
-            dgvDatosCliente.ColumnHeadersDefaultCellStyle.Font = new Font(dgvDatosCliente.Font, FontStyle.Bold);
         }
 
-        private void btnVerificaCliente_Click(object sender, EventArgs e)
+        private void BtnVerificaCliente_Click(object sender, EventArgs e)
         {
             MostrarCliente();
         }
@@ -30,16 +29,10 @@ namespace CapaPresentacion
         {
             this.dgvDatosCliente.DataSource = _NCliente_Proveedor.Mostrar(txtDniCliente.Text);
             dgvDatosCliente.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-
-            int n = dgvDatosCliente.ColumnCount;
-            for (int i = 0; i < n; i++)
-            {
-                dgvDatosCliente.Columns[i].HeaderCell.Style.Alignment = DataGridViewContentAlignment.MiddleCenter;
-
-            }
+            dgvDatosCliente.DefaultCellStyle.Font = new Font("Microsoft Sans Serif", 8);
         }
 
-        private void cbxProducto_SelectedIndexChanged(object sender, EventArgs e)
+        private void CbxProducto_SelectedIndexChanged(object sender, EventArgs e)
         {
             if(cbxProducto.Text == "Café")
             {
