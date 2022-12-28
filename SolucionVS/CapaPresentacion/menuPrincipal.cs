@@ -265,39 +265,14 @@ namespace CapaPresentacion
 
         private void btnCliente_Click_2(object sender, EventArgs e)
         {
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-=======
-            panel2.Visible = false;
-            panel3.Visible = false;
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
-            panel2.Visible = false;
-            panel3.Visible = false;
->>>>>>> parent of e74710d (Reajuste de pantalla principal)
             AbrirFormulario(new frmCliente_Proveedor());
         }
 
         private void btnEmpleado_Click_2(object sender, EventArgs e)
         {
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-=======
-            panel2.Visible = false;
-            panel3.Visible = false;
->>>>>>> parent of e74710d (Reajuste de pantalla principal)
-            AbrirFormulario(new MenuTrabajador());
-=======
             panel2.Visible = false;
             panel3.Visible = false;
             AbrirFormulario(new frmEmpleado());
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
         }
 
         private void btnProveedor_Click_3(object sender, EventArgs e)

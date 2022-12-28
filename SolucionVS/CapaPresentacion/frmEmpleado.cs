@@ -24,7 +24,7 @@ namespace CapaPresentacion
             btnEliminar.Enabled = false;
             btnModificar.Enabled = false;
             this.Mostrar();
-            this.OcultarColumnas();
+            //this.OcultarColumnas();
         }
 
         private void Mostrar()

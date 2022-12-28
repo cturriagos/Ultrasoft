@@ -53,12 +53,13 @@ namespace CapaDeDatos
         public DataTable MostrarEmpleado()
         {
             DataTable DtResultado = new DataTable("empleado");
-            SqlConnection SqlCon = new SqlConnection();
+            //SqlConnection SqlCon = new SqlConnection();
+            CDConexion conn = new CDConexion();
             try
             {   
-                SqlCon.ConnectionString = CDConexion.Cn;
+                //SqlCon.ConnectionString = CDConexion.Cn;s
                 SqlCommand SqlCmd = new SqlCommand();
-                SqlCmd.Connection = SqlCon;
+                SqlCmd.Connection = conn.AbrirConexion();
                 SqlCmd.CommandText = "spmostrar_empleado";
                 SqlCmd.CommandType = CommandType.StoredProcedure;
 

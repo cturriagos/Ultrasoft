@@ -71,8 +71,10 @@
     <Compile Include="Compra_Producto.cs" />
     <Compile Include="ComprovarCliente.cs" />
     <Compile Include="ComprovarProveedor.cs" />
+    <Compile Include="DCliente_Proveedor.cs" />
     <Compile Include="DEmpleado.cs" />
     <Compile Include="DProducto.cs" />
+    <Compile Include="DVenta.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SqlServerTypes\Loader.cs" />
     <Compile Include="verificarDueño.cs" />

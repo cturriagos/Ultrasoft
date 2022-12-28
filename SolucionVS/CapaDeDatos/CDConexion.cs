@@ -17,16 +17,6 @@ namespace CapaDeDatos
         string clave;
         string cADENA;
         string baseDeDatos;
-<<<<<<< HEAD
-<<<<<<< HEAD
-        public static string Cn = "Data Source=.; Initial Catalog=Ultrasoft; Integrated Security=true";
-
-=======
-        public static string Cn = "Data Source=Milenka; Initial Catalog=Ultrasoft; Integrated Security=true";
->>>>>>> parent of 609a933 (Agregación de la funcionalidad Registrar Clientes_Proveedor)
-=======
-        public static string Cn = "Data Source=Milenka; Initial Catalog=Ultrasoft; Integrated Security=true";
->>>>>>> parent of 609a933 (Agregación de la funcionalidad Registrar Clientes_Proveedor)
         DataSet sqlDS;
         SqlCommand sqlCom;
         SqlDataAdapter sqlDA;
@@ -38,7 +28,6 @@ namespace CapaDeDatos
             Usuario = "sa";
             clave = "123456";
             baseDeDatos = "Ultrasoft";
-            
         }
         public CDConexion(string server, string user, string password, string Bd)
         {
@@ -49,15 +38,14 @@ namespace CapaDeDatos
 
         }
         //Abir una conexion con la base de datos qu esta en sql Server
-        private SqlConnection Conexion = new SqlConnection(Cn);//("Data Source=.;Initial Catalog=BASE DE DATOS DE PROYECTO INTEGRADOR;Integrated Security=True");
+        private SqlConnection Conexion = new SqlConnection();//("Data Source=.;Initial Catalog=BASE DE DATOS DE PROYECTO INTEGRADOR;Integrated Security=True");
         //Metodo para abrir la conexion
         public SqlConnection AbrirConexion()
         {
             //abrir coneccion si esta cerrada
             if (Conexion.State == ConnectionState.Closed)
             {
-                Conexion.ConnectionString = Cn;
-                //Conexion.ConnectionString = "Server= " + servidor + " ; Database= " + baseDeDatos + ";User id =" + Usuario + "; Password= " + clave;
+                Conexion.ConnectionString = "Server= " + servidor + " ; Database= " + baseDeDatos + ";User id =" + Usuario + "; Password= " + clave;
                 //establezco la conexion debro de crear el usuario y la clave.
                 Conexion.Open();
             }
