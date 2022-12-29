@@ -19,7 +19,7 @@ namespace CapaDeDatos
         private string _Direccion;
         private string _Telefono;
         private string _Email;
-        private char _Tipo_Entidad;
+        private string _Tipo_Entidad;
         private char _Habilitado;
 
         //Constructor sin parámetros
@@ -31,7 +31,7 @@ namespace CapaDeDatos
         //Constructor con parámetros
         public DCliente_Proveedor(int iD_Cliente_Proveedor, string tipo_Identificacion, string identificacion,
                                   string razon_Social, string nombre_Comercial, string direccion, string telefono,
-                                  string email, char tipo_Entidad, char habilitado)
+                                  string email, string tipo_Entidad, char habilitado)
         {
             _ID_Cliente_Proveedor = iD_Cliente_Proveedor;
             _Tipo_Identificacion = tipo_Identificacion;
@@ -54,7 +54,7 @@ namespace CapaDeDatos
         public string Direccion { get => _Direccion; set => _Direccion = value; }
         public string Telefono { get => _Telefono; set => _Telefono = value; }
         public string Email { get => _Email; set => _Email = value; }
-        public char Tipo_Entidad { get => _Tipo_Entidad; set => _Tipo_Entidad = value; }
+        public string Tipo_Entidad { get => _Tipo_Entidad; set => _Tipo_Entidad = value; }
         public char Habilitado { get => _Habilitado; set => _Habilitado = value; }
 
         public DataTable MostrarCliente(string identificacion)
@@ -88,6 +88,92 @@ namespace CapaDeDatos
                 conn.CerrarConexion();
             }
             return DtResultado;
+        }
+
+        //Metodo para registrar cliente y proveedor
+        public string insertarClienteProveedorD(DCliente_Proveedor cliente_Proveedor)
+        {
+            string rpta = "";
+            SqlConnection SqlCon = new SqlConnection();
+            CDConexion conn = new CDConexion();
+            try
+            {
+                SqlCommand SqlCmd = new SqlCommand();
+                SqlCmd.Connection = conn.AbrirConexion();
+                SqlCmd.CommandText = "sp_registrarClienteProveedor";
+                SqlCmd.CommandType = CommandType.StoredProcedure;
+
+
+                SqlParameter ParTipoIde = new SqlParameter();
+                ParTipoIde.ParameterName = "@tipo_identificacion";
+                ParTipoIde.SqlDbType = SqlDbType.Char;
+                ParTipoIde.Size = 10;
+                ParTipoIde.Value = cliente_Proveedor.Tipo_Identificacion;
+                SqlCmd.Parameters.Add(ParTipoIde);
+
+                SqlParameter Paridentif = new SqlParameter();
+                Paridentif.ParameterName = "@identificacion";
+                Paridentif.SqlDbType = SqlDbType.Char;
+                Paridentif.Size = 13;
+                Paridentif.Value = cliente_Proveedor.Identificacion;
+                SqlCmd.Parameters.Add(Paridentif);
+
+                SqlParameter ParRsocial = new SqlParameter();
+                ParRsocial.ParameterName = "@razon_social";
+                ParRsocial.SqlDbType = SqlDbType.Char;
+                ParRsocial.Size = 50;
+                ParRsocial.Value = cliente_Proveedor.Razon_Social;
+                SqlCmd.Parameters.Add(ParRsocial);
+
+                SqlParameter ParComercial = new SqlParameter();
+                ParComercial.ParameterName = "@nombre_comercial";
+                ParComercial.SqlDbType = SqlDbType.Char;
+                ParComercial.Size = 50;
+                ParComercial.Value = cliente_Proveedor.Nombre_Comercial;
+                SqlCmd.Parameters.Add(ParComercial);
+
+                SqlParameter ParDireccion = new SqlParameter();
+                ParDireccion.ParameterName = "@direccion";
+                ParDireccion.SqlDbType = SqlDbType.Char;
+                ParDireccion.Size = 100;
+                ParDireccion.Value = cliente_Proveedor.Direccion;
+                SqlCmd.Parameters.Add(ParDireccion);
+
+                SqlParameter ParTelefono = new SqlParameter();
+                ParTelefono.ParameterName = "@telefono";
+                ParTelefono.SqlDbType = SqlDbType.Char;
+                ParTelefono.Size = 15;
+                ParTelefono.Value = cliente_Proveedor.Telefono;
+                SqlCmd.Parameters.Add(ParTelefono);
+
+                SqlParameter ParEmail = new SqlParameter();
+                ParEmail.ParameterName = "@email";
+                ParEmail.SqlDbType = SqlDbType.Char;
+                ParEmail.Size = 50;
+                ParEmail.Value = cliente_Proveedor.Email;
+                SqlCmd.Parameters.Add(ParEmail);
+
+                SqlParameter ParTipoEntidad = new SqlParameter();
+                ParTipoEntidad.ParameterName = "@tipo_entidad";
+                ParTipoEntidad.SqlDbType = SqlDbType.Char;
+                ParTipoEntidad.Size = 15;
+                ParTipoEntidad.Value = cliente_Proveedor.Tipo_Entidad;
+                SqlCmd.Parameters.Add(ParTipoEntidad);
+
+                //Ejecutamos nuestro comando
+                rpta = SqlCmd.ExecuteNonQuery() == 1 ? "OK" : "NO se Ingreso el Registro";
+
+            }
+            catch (Exception ex)
+            {
+                rpta = ex.Message;
+            }
+            finally
+            {
+                if (SqlCon.State == ConnectionState.Open) SqlCon.Close();
+            }
+            return rpta;
+
         }
     }
 }

@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using CapaNegocios;
 
 namespace CapaPresentacion
 
@@ -58,5 +59,28 @@ namespace CapaPresentacion
         {
 
         }
+
+        private void btnRegistrar_Click_1(object sender, EventArgs e)
+        {
+            
+            string Rpta = "";
+            Rpta = NCliente_Proveedor.insertarClienteProveedorN(cmbTipoIdentidaad.Text, txtIdentificacion.Text, txtRazonSocial.Text,
+                txtNomComercial.Text, txtDireccion.Text, txtTelefono.Text, txtEmail.Text, cmbTipoEntidad.Text);
+
+            if (Rpta.Equals("OK"))
+            {
+
+                MessageBox.Show("Se insertó de forma correcta el registro");
+
+
+            }
+            else
+            {
+                //Mostramos el mensaje de error
+                MessageBox.Show(Rpta);
+            }
+        }
+
+
     }
 }
