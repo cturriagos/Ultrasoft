@@ -29,7 +29,6 @@ namespace CapaPresentacion
         {
             this.dgvDatosCliente.DataSource = _NCliente_Proveedor.Mostrar(txtDniCliente.Text);
             dgvDatosCliente.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-            dgvDatosCliente.DefaultCellStyle.Font = new Font("Microsoft Sans Serif", 8);
         }
 
         private void CbxProducto_SelectedIndexChanged(object sender, EventArgs e)
@@ -49,6 +48,11 @@ namespace CapaPresentacion
                 txtPrecio.Text = "30,5";
                 txtMetrica.Text = "Quintal (Q)";
             }
+        }
+
+        private void BtnRegistrarProducto_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }

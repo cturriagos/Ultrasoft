@@ -337,6 +337,7 @@
             this.txtTotal.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTotal.Location = new System.Drawing.Point(825, 520);
             this.txtTotal.Name = "txtTotal";
+            this.txtTotal.ReadOnly = true;
             this.txtTotal.Size = new System.Drawing.Size(167, 24);
             this.txtTotal.TabIndex = 29;
             this.txtTotal.Text = "0,00";
@@ -362,6 +363,7 @@
             this.BtnRegistrarProducto.TabIndex = 32;
             this.BtnRegistrarProducto.Text = "Registrar";
             this.BtnRegistrarProducto.UseVisualStyleBackColor = true;
+            this.BtnRegistrarProducto.Click += new System.EventHandler(this.BtnRegistrarProducto_Click);
             // 
             // dtpFechaVenta
             // 
