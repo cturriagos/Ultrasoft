@@ -31,5 +31,10 @@ namespace CapaNegocios
 
             return obj.insertarClienteProveedorD(obj);
         }
+
+        public static DataTable MostrarDatos() {
+
+            return new DCliente_Proveedor().Mostrar();
+        }
     }
 }

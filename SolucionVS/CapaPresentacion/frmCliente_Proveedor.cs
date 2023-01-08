@@ -39,7 +39,7 @@ namespace CapaPresentacion
 
         private void frmCliente_Proveedor_Load(object sender, EventArgs e)
         {
-            MostrarClienteProveedor();
+            mostrarDatos();
         }
 
         private void btnRegistrar_Click(object sender, EventArgs e)
@@ -50,10 +50,7 @@ namespace CapaPresentacion
             MessageBox.Show("se inserto correctamente");
         }
 
-        private void MostrarClienteProveedor()
-        {
-            //dgvDatos.DataSource = conexion.MostrarClientesProveedor();
-        }
+        
 
         private void label9_Click(object sender, EventArgs e)
         {
@@ -79,6 +76,11 @@ namespace CapaPresentacion
                 //Mostramos el mensaje de error
                 MessageBox.Show(Rpta);
             }
+        }
+
+        private void mostrarDatos()
+        {
+            this.dgvDatos.DataSource = NCliente_Proveedor.MostrarDatos();
         }
 
 

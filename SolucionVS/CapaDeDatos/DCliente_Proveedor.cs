@@ -175,5 +175,33 @@ namespace CapaDeDatos
             return rpta;
 
         }
+
+        //Método Mostrar
+        public DataTable Mostrar()
+        {
+            DataTable DtResultado = new DataTable("cliente_proveedor");
+            SqlConnection SqlCon = new SqlConnection();
+            CDConexion conn = new CDConexion();
+            try
+            {
+
+                SqlCommand SqlCmd = new SqlCommand();
+                SqlCmd.Connection = SqlCon;
+                SqlCmd.Connection = conn.AbrirConexion();
+                SqlCmd.CommandText = "sp_mostraDatosClientesProv";
+                SqlCmd.CommandType = CommandType.StoredProcedure;
+
+                SqlDataAdapter SqlDat = new SqlDataAdapter(SqlCmd);
+                SqlDat.Fill(DtResultado);
+
+            }
+            catch (Exception ex)
+            {
+                DtResultado = null;
+            }
+            return DtResultado;
+
+        }
+
     }
 }
